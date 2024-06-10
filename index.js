@@ -1,5 +1,7 @@
 const selectAgents = document.querySelector("#agent-select");
 
+console.log("document", document.getElementById("agent-select"));
+
 fetch("../data/bd-2024.json")
   .then((response) => response.json())
   .then((data) => {
