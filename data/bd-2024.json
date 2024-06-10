@@ -4030,8 +4030,8 @@
   "RCI229720240120": [
     {
       "numAgent": 5094,
-      "agent": "TAMBOURAN MOUTOUMODELY EMILIE (5094) INSPECTEURS CCA",
-      "entite": "",
+      "agent": "TAMBOURAN MOUTOUMODELY EMILIE (5094)",
+      "entite": "INSPECTEURS CCA",
       "dateSynchronisation": "2024-01-22",
       "lignes": [
         {
