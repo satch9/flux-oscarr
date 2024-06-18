@@ -7596,35 +7596,5 @@
         }
       ]
     }
-  ],
-  "RCI229720231206": [
-    {
-      "numAgent": 6451,
-      "agent": "MANDER SAINT-GILLES JOFFREY (6451)",
-      "entite": "",
-      "dateSynchronisation": "2023-12-01",
-      "lignes": [
-        {
-          "action": "C",
-          "modification": "",
-          "avant": "",
-          "apres": ""
-        }
-      ]
-    },
-    {
-      "numAgent": 6452,
-      "agent": "SADOUN BERYL (6452)",
-      "entite": "",
-      "dateSynchronisation": "2023-12-01",
-      "lignes": [
-        {
-          "action": "C",
-          "modification": "",
-          "avant": "",
-          "apres": ""
-        }
-      ]
-    }
   ]
 }
