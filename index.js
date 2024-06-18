@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("../data/bd.json")
     .then((response) => response.json())
     .then((data) => {
+      
+      console.log("groupByYear(data)",groupByYear(data))
+      console.log("getDuplicateAgents(data)",getDuplicateAgents(data))
+
       if (selectAgents) {
         // Récupérer tous les agents disponibles
         const agents = getUniqueAgents(data);
@@ -34,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         agents.forEach((agent) => {
           const option = document.createElement("option");
           option.value = agent.numAgent;
-          option.text = `${agent.numAgent} - ${agent.agent.split(" (")[0]} `;
+          option.text = `${agent.agent.split(" (")[0]} - ${agent.numAgent} `;
           selectAgents.appendChild(option);
         });
 
@@ -169,6 +173,15 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function renderTimeline(modifications) {
+    modifications.sort((a, b) => {
+
+      const dateA = new Date(a.dateSynchronisation);
+  
+      const dateB = new Date(b.dateSynchronisation);
+  
+      return dateB.getTime() - dateA.getTime();
+  
+    });
     timeline.innerHTML = "";
 
     modifications.forEach((modification, index) => {
@@ -248,4 +261,56 @@ document.addEventListener("DOMContentLoaded", function () {
       timeline.innerHTML += modificationHTML;
     });
   }
+  function groupByYear(data) {
+
+    const result = {};
+  
+    Object.keys(data).forEach((key) => {
+  
+      data[key].forEach((item) => {
+  
+        const year = new Date(item.dateSynchronisation).getFullYear();
+  
+        if (!result[year]) {
+  
+          result[year] = [];
+  
+        }
+  
+        result[year].push(item);
+  
+      });
+  
+    });
+  
+    return result;
+  
+  }
+
+  function getDuplicateAgents(data) {
+    const agentCounts = {};
+    Object.keys(data).forEach((key) => {
+      data[key].forEach((item) => {
+        const numAgent = item.numAgent;
+        if (!agentCounts[numAgent]) {
+          agentCounts[numAgent] = 1;
+        } else {
+          agentCounts[numAgent]++;
+        }
+      });
+    });
+  
+    const duplicateAgents = [];
+    Object.keys(agentCounts).forEach((numAgent) => {
+      if (agentCounts[numAgent] > 1) {
+        Object.keys(data).forEach((key) => {
+          duplicateAgents.push(...data[key].filter((item) => item.numAgent === parseInt(numAgent)));
+        });
+      }
+    });
+  
+    return duplicateAgents;
+  }
+  
+
 });
