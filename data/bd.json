@@ -1,4 +1,34 @@
 {
+  "RCI229720240617": [
+    {
+      "numAgent": 3261,
+      "agent": "DERFLA MARIE ISABELLE (3261)",
+      "entite": "POLE EXP JURIDIQUE CTX RECOUVREMENT ",
+      "dateSynchronisation": "2024-06-18",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W1500 ",
+          "apres": "M1000 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6185,
+      "agent": "GRONDIN CECILE (6185)",
+      "entite": "SECRETARIAT DIRECTION ",
+      "dateSynchronisation": "2024-06-18",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10005A ",
+          "apres": "10003S "
+        }
+      ]
+    }
+  ],
   "RCI229720240616": [
     {
       "numAgent": 6504,
