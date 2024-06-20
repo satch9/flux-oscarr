@@ -27332,5 +27332,1519 @@
         }
       ]
     }
+  ],
+  "RCI229720211106": [
+    {
+      "numAgent": 6260,
+      "agent": "AZURA MATHILDE ALINE (6260)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 5452,
+      "agent": "BARET CLARISSE (5452)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6252,
+      "agent": "BARET MELISSA MARIE VERONIQUE (6252)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 5778,
+      "agent": "BASTIEN JENNYFER CAROLE (5778)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6076,
+      "agent": "DELORT ELODIE (6076)",
+      "entite": "IJ AT/MP ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "M2322",
+          "apres": "M2320"
+        },
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "30/06/2021",
+          "apres": "null"
+        }
+      ]
+    },
+    {
+      "numAgent": 6255,
+      "agent": "DUFRESNE WENDY (6255)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6259,
+      "agent": "GRONDIN MARYSE ROLANDE (6259)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6117,
+      "agent": "HECTOR LUDIVINE JOHANNA (6117)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "16/09/2021",
+          "apres": "null"
+        }
+      ]
+    },
+    {
+      "numAgent": 6257,
+      "agent": "LATCHIMY MARIE-LUCIE (6257)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 5813,
+      "agent": "LAURET MARIE KARINE (5813)",
+      "entite": "COMPL. SANTE SOLIDAIRE SUD ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "25/06/2021",
+          "apres": "null"
+        }
+      ]
+    },
+    {
+      "numAgent": 6251,
+      "agent": "LEPERLIER JOSIE (6251)",
+      "entite": "IJ SUD ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6161,
+      "agent": "MARDEMOUTOU LAURENCE MARIE (6161)",
+      "entite": "C2S ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "05/07/2021",
+          "apres": "null"
+        }
+      ]
+    },
+    {
+      "numAgent": 6253,
+      "agent": "MOUTOUSSAMY-VALLIAMEE SLOANE (6253)",
+      "entite": "IJ NORD ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6258,
+      "agent": "ONIAN FARANNAH (6258)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6254,
+      "agent": "PAUSE MARIE HELENE (6254)",
+      "entite": "REGIME AGRICOLE ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 5998,
+      "agent": "ROCROU MARIE VANESSA (5998)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "07/11/2020",
+          "apres": "null"
+        }
+      ]
+    },
+    {
+      "numAgent": 6256,
+      "agent": "SAINT ALME DANIEL (6256)",
+      "entite": "PFS PS ",
+      "dateSynchronisation": "2021-11-02",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    }
+  ],
+  "RCI229720211107": [
+    {
+      "numAgent": 1192,
+      "agent": "HUET HELENE (1192)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-03",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    }
+  ],
+  "RCI229720211110": [
+    {
+      "numAgent": 5609,
+      "agent": "CAZAL KEVIN (5609)",
+      "entite": "RECONNAISSANCE AT/MP ST PAUL ",
+      "dateSynchronisation": "2021-11-08",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "36.0",
+          "apres": "39.0"
+        }
+      ]
+    },
+    {
+      "numAgent": 6194,
+      "agent": "DALLEAU EMILIE (6194)",
+      "entite": "PFS COTISATIONS ",
+      "dateSynchronisation": "2021-11-08",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null",
+          "apres": "02/11/2021"
+        }
+      ]
+    },
+    {
+      "numAgent": 6198,
+      "agent": "DELAUNAY LAURENCE (6198)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-08",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null",
+          "apres": "02/11/2021"
+        }
+      ]
+    },
+    {
+      "numAgent": 2677,
+      "agent": "PAYET DANIELLA MARIE (2677)",
+      "entite": "C2S ",
+      "dateSynchronisation": "2021-11-08",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "M2321",
+          "apres": "M2322"
+        }
+      ]
+    }
+  ],
+  "RCI229720211111": [
+    {
+      "numAgent": 6265,
+      "agent": "AHAMADA ALI SARAH (6265)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-09",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6193,
+      "agent": "CHANE NATHALIE (6193)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-09",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null",
+          "apres": "02/11/2021"
+        }
+      ]
+    },
+    {
+      "numAgent": 6264,
+      "agent": "COLLET JOCELYNE (6264)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-09",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 1760,
+      "agent": "D AMATO BRIGITTE (1760)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-09",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "20.0",
+          "apres": "39.0"
+        }
+      ]
+    },
+    {
+      "numAgent": 5085,
+      "agent": "FONTAINE DANIELLE VALERI (5085)",
+      "entite": "RAF TI RG ERAF ",
+      "dateSynchronisation": "2021-11-09",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "39.0",
+          "apres": "34.0"
+        }
+      ]
+    },
+    {
+      "numAgent": 6263,
+      "agent": "LEBIHAN MARINE JOHANNE (6263)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-09",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 4159,
+      "agent": "MALDAT CHRISTELLE (4159)",
+      "entite": "GDB EST ",
+      "dateSynchronisation": "2021-11-09",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10004S",
+          "apres": "10005B"
+        }
+      ]
+    },
+    {
+      "numAgent": 6261,
+      "agent": "NORMANDIE MIGUY (6261)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-09",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    }
+  ],
+  "RCI229720211112": [
+    {
+      "numAgent": 6262,
+      "agent": "HITIE ELODIE (6262)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-10",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    }
+  ],
+  "RCI229720211113": [
+    {
+      "numAgent": 6133,
+      "agent": "PERROT GILBERTE (6133)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-12",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "12/11/2021 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211114": [
+    {
+      "numAgent": 6182,
+      "agent": "BOYER NINA MARIE ANTONIA (6182)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 3043,
+      "agent": "CADET ISABELLE (3043)",
+      "entite": "COMPL. SANTE SOLIDAIRE SECT 3 ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "18.5 ",
+          "apres": "37.0 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6170,
+      "agent": "CHANCA SOPHIA (6170)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6172,
+      "agent": "FAUGOOA DANIELA SHEETAL (6172)",
+      "entite": "PFS RETRAITE ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 3408,
+      "agent": "LANG-TUNG MICKAEL JACKY (3408)",
+      "entite": "GDB NORD ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "39.0 ",
+          "apres": "19.5 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6174,
+      "agent": "LEBEAU FARIDA MARIE PEGGY (6174)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 4159,
+      "agent": "MALDAT CHRISTELLE (4159)",
+      "entite": "GDB EST ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "M3500 ",
+          "apres": "E0323 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6175,
+      "agent": "MARCOZ KENNY (6175)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6177,
+      "agent": "MERCIER CELINE MARIE ELODIE (6177)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6178,
+      "agent": "PLANTE KEVIN (6178)",
+      "entite": "PFS COTISATIONS ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6181,
+      "agent": "SADOU AURELIA (6181)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211115": [
+    {
+      "numAgent": 3004,
+      "agent": "BAGASSE FAWZIA (3004)",
+      "entite": "BUDGET ",
+      "dateSynchronisation": "2021-11-16",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10006S ",
+          "apres": "10007S "
+        }
+      ]
+    },
+    {
+      "numAgent": 3043,
+      "agent": "CADET ISABELLE (3043)",
+      "entite": "COMPL. SANTE SOLIDAIRE SECT 3 ",
+      "dateSynchronisation": "2021-11-16",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "37.0 ",
+          "apres": "18.5 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5609,
+      "agent": "CAZAL KEVIN (5609)",
+      "entite": "RECONNAISSANCE AT/MP ST PAUL ",
+      "dateSynchronisation": "2021-11-16",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "L4220 ",
+          "apres": "M2321 "
+        },
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10004S ",
+          "apres": "10005B "
+        }
+      ]
+    },
+    {
+      "numAgent": 6171,
+      "agent": "DOBI ZARINA (6171)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-16",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1383,
+      "agent": "PAYET CECILE (1383)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-16",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "36.0 ",
+          "apres": "39.0 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6179,
+      "agent": "RIVIERE KATHY (6179)",
+      "entite": "RPS ",
+      "dateSynchronisation": "2021-11-16",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "15/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 3342,
+      "agent": "RIVIERE NICOLAS (3342)",
+      "entite": "AGENCE RETRAITE OUEST ",
+      "dateSynchronisation": "2021-11-16",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10005A ",
+          "apres": "10005B "
+        }
+      ]
+    }
+  ],
+  "RCI229720211116": [
+    {
+      "numAgent": 6266,
+      "agent": "ESPARON AUDREY ERIKA (6266)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-17",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 4908,
+      "agent": "ILAMOUCHA FRANTZ MAURICE (4908)",
+      "entite": "POLE EXP JURIDIQUE CTX RECOUVREMENT ",
+      "dateSynchronisation": "2021-11-17",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "38.0 ",
+          "apres": "19.5 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6267,
+      "agent": "LASAONE MARIE VANESSA (6267)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-17",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6167,
+      "agent": "MAGDELEINE YVAN JEAN-RENE (6167)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-17",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "16/08/2021 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 4159,
+      "agent": "MALDAT CHRISTELLE (4159)",
+      "entite": "GDB EST ",
+      "dateSynchronisation": "2021-11-17",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "E0323 ",
+          "apres": "M2240 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211119": [
+    {
+      "numAgent": 1101,
+      "agent": "RIVIERE DOMINIQUE (1101)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-22",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "19.5 ",
+          "apres": "39.0 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211203": [
+    {
+      "numAgent": 6272,
+      "agent": "ARMOURDOM PATRICE (6272)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-26",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 1066,
+      "agent": "FONTAINE ROSELINE (1066)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-26",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6268,
+      "agent": "HOARAU VANESSA (6268)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-26",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6271,
+      "agent": "ISIDORE DENIS (6271)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-26",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6273,
+      "agent": "MOUROUMAN MOUROUVEYA ISABELLE (6273) Depart",
+      "entite": "",
+      "dateSynchronisation": "2021-11-26",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6269,
+      "agent": "NOURRY LEA (6269)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-26",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6270,
+      "agent": "OGIRE REMY (6270)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-26",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    }
+  ],
+  "RCI229720211204": [
+    {
+      "numAgent": 6273,
+      "agent": "MOUROUMAN MOUROUVEYA ISABELLE (6273) Depart",
+      "entite": "",
+      "dateSynchronisation": "2021-11-29",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "NOM",
+          "avant": "MOROUMAN MOUROUVEYA ",
+          "apres": "MOUROUMAN MOUROUVEYA "
+        }
+      ]
+    },
+    {
+      "numAgent": 3278,
+      "agent": "THOMAS DOLORES MARIE (3278)",
+      "entite": "ACCUEIL PHYSIQUE OUEST ",
+      "dateSynchronisation": "2021-11-29",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "38.0 ",
+          "apres": "19.0 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211205": [
+    {
+      "numAgent": 1071,
+      "agent": "ALPOU MICHELINE (1071)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-30",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 4873,
+      "agent": "(4873)",
+      "entite": "IJ NORD ",
+      "dateSynchronisation": "2021-11-30",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "NOM",
+          "avant": "SEVAMY ",
+          "apres": "DACOUX-SEVAMY "
+        }
+      ]
+    },
+    {
+      "numAgent": 1066,
+      "agent": "FONTAINE ROSELINE (1066)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-30",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1192,
+      "agent": "HUET HELENE (1192)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-30",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1200,
+      "agent": "VAILLANT JEAN-MARC (1200)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-11-30",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/11/2021 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211206": [
+    {
+      "numAgent": 6208,
+      "agent": "LAJOIE IRENE (6208)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "23/11/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 3618,
+      "agent": "SOTRON GILDA (3618)",
+      "entite": "IJ NORD ",
+      "dateSynchronisation": "2021-12-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "39.0 ",
+          "apres": "30.0 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211207": [
+    {
+      "numAgent": 1677,
+      "agent": "BEGUE ROSELYNE (1677)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-02",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "02/12/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 3345,
+      "agent": "HUET FLORENCE MARIE (3345)",
+      "entite": "AC PL-PAM ",
+      "dateSynchronisation": "2021-12-02",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "32.0 ",
+          "apres": "39.0 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211208": [
+    {
+      "numAgent": 3393,
+      "agent": "LAURET PASCAL PIERRE (3393)",
+      "entite": "GDB SUD ",
+      "dateSynchronisation": "2021-12-03",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "M2215 ",
+          "apres": "M2230 "
+        },
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10006S ",
+          "apres": "10007S "
+        }
+      ]
+    },
+    {
+      "numAgent": 6154,
+      "agent": "VETLE EMELINE (6154)",
+      "entite": "IJ NORD ",
+      "dateSynchronisation": "2021-12-03",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "29/08/2021 ",
+          "apres": "null "
+        }
+      ]
+    }
+  ],
+  "RCI229720211209": [
+    {
+      "numAgent": 3751,
+      "agent": "DIDIER FLORA MARIE (3751)",
+      "entite": "UNITE FSP ",
+      "dateSynchronisation": "2021-12-06",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "19.0 ",
+          "apres": "38.0 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211210": [
+    {
+      "numAgent": 6276,
+      "agent": "ANDRIAMAHASOLO HAROLD (6276)",
+      "entite": "STATISTIQUES ",
+      "dateSynchronisation": "2021-12-07",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 3556,
+      "agent": "CHEUNG-SING-LING KETTY (3556)",
+      "entite": "ADMINISTRATION FONCTIONNELLE SUD ",
+      "dateSynchronisation": "2021-12-07",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "NOM",
+          "avant": "CHEUNG-SING-LING ELISABETH ",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6277,
+      "agent": "COTAYA KARIM (6277)",
+      "entite": "SITE DE SAINTE MARIE ",
+      "dateSynchronisation": "2021-12-07",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6274,
+      "agent": "HOARAU EMMA NELLY (6274)",
+      "entite": "C2S ",
+      "dateSynchronisation": "2021-12-07",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6275,
+      "agent": "LEBRETON CORINE (6275)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-07",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 5166,
+      "agent": "VIDOT OLIVIER THOMAS (5166)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2021-12-07",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10004S ",
+          "apres": "10005A "
+        }
+      ]
+    }
+  ],
+  "RCI229720211211": [
+    {
+      "numAgent": 6185,
+      "agent": "GRONDIN CECILE (6185)",
+      "entite": "SECRETARIAT DIRECTION ",
+      "dateSynchronisation": "2021-12-08",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "08/12/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1102,
+      "agent": "MADA MARIE-LOUISE (1102)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-08",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    }
+  ],
+  "RCI229720211212": [
+    {
+      "numAgent": 2065,
+      "agent": "AH-HING ODILE (2065)",
+      "entite": "COMPTA-ETABLISSEMENTS ",
+      "dateSynchronisation": "2021-12-09",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "I0312 ",
+          "apres": "I0311 "
+        }
+      ]
+    },
+    {
+      "numAgent": 2799,
+      "agent": "MODESTE JACQUELINE (2799)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-09",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "39.0 ",
+          "apres": "19.5 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211214": [
+    {
+      "numAgent": 3338,
+      "agent": "AUGUSTE VALERIE (3338)",
+      "entite": "MAS ",
+      "dateSynchronisation": "2021-12-13",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "U0312 ",
+          "apres": "U0342 "
+        }
+      ]
+    },
+    {
+      "numAgent": 3283,
+      "agent": "CADET JOELLE (3283)",
+      "entite": "MAS ",
+      "dateSynchronisation": "2021-12-13",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "U0312 ",
+          "apres": "U0342 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6255,
+      "agent": "DUFRESNE WENDY (6255)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-13",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "U0300 ",
+          "apres": "U0341 "
+        }
+      ]
+    },
+    {
+      "numAgent": 4969,
+      "agent": "HEBERT FLORENCE SOPHIE (4969)",
+      "entite": "SECURITE ET HYGIENE ",
+      "dateSynchronisation": "2021-12-13",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "M2522 ",
+          "apres": "M2311 "
+        }
+      ]
+    },
+    {
+      "numAgent": 3997,
+      "agent": "IMAZE AUDE MARIE (3997)",
+      "entite": "RG GEST. COMPTES PRESTATAIRES ",
+      "dateSynchronisation": "2021-12-13",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "L4310 ",
+          "apres": "N0400 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6258,
+      "agent": "ONIAN FARANNAH (6258)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-13",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "U0300 ",
+          "apres": "U0341 "
+        }
+      ]
+    },
+    {
+      "numAgent": 2295,
+      "agent": "PELTIER HELYETTE PAULE (2295)",
+      "entite": "PFS PS ET MAS ",
+      "dateSynchronisation": "2021-12-13",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "U0321 ",
+          "apres": "U0340 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6256,
+      "agent": "SAINT ALME DANIEL (6256)",
+      "entite": "PFS PS ",
+      "dateSynchronisation": "2021-12-13",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "U0300 ",
+          "apres": "U0341 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211216": [
+    {
+      "numAgent": 6185,
+      "agent": "GRONDIN CECILE (6185)",
+      "entite": "SECRETARIAT DIRECTION ",
+      "dateSynchronisation": "2021-12-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "08/12/2021 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 3109,
+      "agent": "MUSSARD CLARISSE (3109)",
+      "entite": "ACCOMP OFFREURS DE SOINS ",
+      "dateSynchronisation": "2021-12-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "39.0 ",
+          "apres": "19.5 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211218": [
+    {
+      "numAgent": 3625,
+      "agent": "RAMAYE ANNE EMMANUELLE (3625)",
+      "entite": "IJ SUD ",
+      "dateSynchronisation": "2021-12-17",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "30.0 ",
+          "apres": "36.0 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211219": [
+    {
+      "numAgent": 5388,
+      "agent": "HIRA EDDY (5388)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-20",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "19/12/2021 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6188,
+      "agent": "MARIANNE MARGAUX (6188)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-20",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "19/12/2021 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211221": [
+    {
+      "numAgent": 6155,
+      "agent": "DUGAIN MELISSA (6155)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2021-12-22",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "22/12/2021 "
+        }
+      ]
+    }
+  ],
+  "RCI229720211222": [
+    {
+      "numAgent": 4906,
+      "agent": "HUNE SAM SANDRINE EMMANU (4906)",
+      "entite": "SECRETARIAT DIR RECOUVREMENT DAJ ",
+      "dateSynchronisation": "2021-12-23",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "39.0 ",
+          "apres": "28.0 "
+        }
+      ]
+    }
+  ],
+  "RCI229720220103": [
+    {
+      "numAgent": 5460,
+      "agent": "LEBLANC SOPHIE (5460)",
+      "entite": "PREVENTION ENTREPRISE ",
+      "dateSynchronisation": "2021-12-29",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "NOM",
+          "avant": "THOMAS ",
+          "apres": "LEBLANC "
+        }
+      ]
+    }
   ]
 }
