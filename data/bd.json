@@ -1,4 +1,62 @@
 {
+  "RCI229720240619": [
+    {
+      "numAgent": 6454,
+      "agent": "AMOUNY WINDY MARIE WILLIANA (6454)",
+      "entite": "",
+      "dateSynchronisation": "2024-06-20",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "20/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6457,
+      "agent": "BOYER OPHELIE (6457)",
+      "entite": "",
+      "dateSynchronisation": "2024-06-20",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "20/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6462,
+      "agent": "PAVOT ALIDA (6462)",
+      "entite": "",
+      "dateSynchronisation": "2024-06-20",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "20/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6458,
+      "agent": "SARANE ORIANNE (6458)",
+      "entite": "",
+      "dateSynchronisation": "2024-06-20",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "20/06/2024 "
+        }
+      ]
+    }
+  ],
   "RCI229720240617": [
     {
       "numAgent": 3261,
