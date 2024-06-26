@@ -1,4 +1,328 @@
 {
+  "RCI229720240702": [
+    {
+      "numAgent": 3022,
+      "agent": "ABOUQUIR PEDRO (3022)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 3189,
+      "agent": "AMODE MALL MOUSLIMAH (3189)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6250,
+      "agent": "ANAMOUTOU JOHANNA (6250)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1959,
+      "agent": "BOURBON PATRICIA M SAB (1959)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1986,
+      "agent": "BOYER NATHALIE M ISAB (1986)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 4223,
+      "agent": "CAINI MARIE SABRINA (4223)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5495,
+      "agent": "FIRMIN ANABELLE (5495)",
+      "entite": "ACCUEIL PHYSIQUE OUEST ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "U0130 ",
+          "apres": "U0120 "
+        }
+      ]
+    },
+    {
+      "numAgent": 3017,
+      "agent": "LAI-CHEUNG-KIT VERONIQUE (3017)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6400,
+      "agent": "LOPEO AURELIE (6400)",
+      "entite": "",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5397,
+      "agent": "M'TIMA RAISSA MARIE SYLVINE (5397)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6364,
+      "agent": "MERAULT MARIE ANDREE (6364)",
+      "entite": "",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 4794,
+      "agent": "MOIGNY YASMINE (4794)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6084,
+      "agent": "NIAMDILA CLARISSE (6084)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5393,
+      "agent": "ORANGE ANNIE-CLAUDE (5393)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 2239,
+      "agent": "POLGAN LYNDA (2239)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5392,
+      "agent": "RELIQUE SARAH (5392)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 2366,
+      "agent": "ROBERT BRIGITTE (2366)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6064,
+      "agent": "RUPERT AMANDINE (6064)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5106,
+      "agent": "SUZANNE JULIE (5106)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6055,
+      "agent": "TECHER AURELIE (6055)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5394,
+      "agent": "TESTAN AUDREY MARIE AGNES (5394)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5166,
+      "agent": "VIDOT OLIVIER THOMAS (5166)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1693,
+      "agent": "VIRAPINMODELY MONIQUE (1693)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-25",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0335 "
+        }
+      ]
+    }
+  ],
   "RCI229720240619": [
     {
       "numAgent": 6454,
