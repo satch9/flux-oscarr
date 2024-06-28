@@ -1,4 +1,92 @@
 {
+  "RCI229720240704": [
+    {
+      "numAgent": 6439,
+      "agent": "BUDEL ANAELLE (6439)",
+      "entite": "",
+      "dateSynchronisation": "2024-06-27",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "26/06/2024 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 1210,
+      "agent": "GRONDIN CHANTAL (1210)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-27",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0330 "
+        }
+      ]
+    },
+    {
+      "numAgent": 581,
+      "agent": "MOUTOUVIRIN SYLVAINE (581)",
+      "entite": "RG EGM ",
+      "dateSynchronisation": "2024-06-27",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0330 "
+        }
+      ]
+    }
+  ],
+  "RCI229720240703": [
+    {
+      "numAgent": 6439,
+      "agent": "BUDEL ANAELLE (6439)",
+      "entite": "",
+      "dateSynchronisation": "2024-06-26",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "26/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6442,
+      "agent": "CLOEREC MAUD (6442)",
+      "entite": "",
+      "dateSynchronisation": "2024-06-26",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "W0332 ",
+          "apres": "W0336 "
+        }
+      ]
+    },
+    {
+      "numAgent": 4348,
+      "agent": "CROZET KEREN EMMANUELL (4348)",
+      "entite": "ACCUEIL PHYSIQUE EST ",
+      "dateSynchronisation": "2024-06-26",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "39.0 ",
+          "apres": "37.0 "
+        }
+      ]
+    }
+  ],
   "RCI229720240702": [
     {
       "numAgent": 3022,
