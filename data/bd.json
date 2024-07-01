@@ -1,4 +1,34 @@
 {
+  "RCI229720240705": [
+    {
+      "numAgent": 6474,
+      "agent": "GONDON AURIANE (6474)",
+      "entite": "UNITE GESTION NON CONFORMES ",
+      "dateSynchronisation": "2024-06-28",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "28/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6459,
+      "agent": "LAUP PATRICIA (6459)",
+      "entite": "RETRAITE AGRICOLE INVALIDITE ",
+      "dateSynchronisation": "2024-06-28",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "28/06/2024 "
+        }
+      ]
+    }
+  ],
   "RCI229720240704": [
     {
       "numAgent": 6439,
