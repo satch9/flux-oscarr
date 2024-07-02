@@ -1,4 +1,300 @@
 {
+  "RCI229720240706": [
+    {
+      "numAgent": 6403,
+      "agent": "AHAMED RAMNA (6403)",
+      "entite": "CAM SAINT DENIS ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 2789,
+      "agent": "ALEZAN KETTY ANDREE (2789)",
+      "entite": "GDB NORD ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6476,
+      "agent": "ARNASSALOM JEREMIE (6476)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "04/05/2024 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 1850,
+      "agent": "BARET ODILE (1850)",
+      "entite": "IJ SUD ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "31.2 ",
+          "apres": "39.0 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6468,
+      "agent": "BLARD CHRISTOPHE (6468)",
+      "entite": "SERVICE SOCIAL NORD ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6471,
+      "agent": "BONNAL ANNE (6471)",
+      "entite": "IJ SUD ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1416,
+      "agent": "COTTIN COLETTE (1416)",
+      "entite": "POLE ASSURES PS PRESCRIPTEURS ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6486,
+      "agent": "COUZINIER PAULINE (6486)",
+      "entite": "SERVICE SOCIAL OUEST ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 2701,
+      "agent": "DIFERNAND NATACHA (2701)",
+      "entite": "AGENCE RETRAITE EST ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "39.0 ",
+          "apres": "19.5 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1521,
+      "agent": "FOLIO LUCETTE (1521)",
+      "entite": "UNITE FSP ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6466,
+      "agent": "GUSTAVE WENDY (6466)",
+      "entite": "PFS RETRAITE ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6508,
+      "agent": "JUNGLING GREGORY (6508)",
+      "entite": "",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6497,
+      "agent": "LEGROS DIANE MARIE (6497)",
+      "entite": "INDUS ET OPPOSITIONS ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6511,
+      "agent": "LEONARD JEAN-MAXIME JACQUES (6511)",
+      "entite": "",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6435,
+      "agent": "MOULATOUA STEPHANE (6435)",
+      "entite": "PROMOTION OFFRES DE SERVICES ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6512,
+      "agent": "NATIVEL MAZARINE (6512)",
+      "entite": "",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6464,
+      "agent": "PROVIDENCE ANNA (6464)",
+      "entite": "AGENCE RETRAITE EST ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6469,
+      "agent": "QENEGEI CARMELITA MOLA (6469)",
+      "entite": "TRESORERIE ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6509,
+      "agent": "RIVIERE WENDY MAY (6509)",
+      "entite": "",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6367,
+      "agent": "TECHER CHLOE (6367)",
+      "entite": "GFE ",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "30/06/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6510,
+      "agent": "VEERAPERMAL SANDY RAJENDRA (6510)",
+      "entite": "",
+      "dateSynchronisation": "2024-07-01",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    }
+  ],
   "RCI229720240705": [
     {
       "numAgent": 6474,
