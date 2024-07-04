@@ -1,15 +1,3 @@
-const selectAgents = document.getElementById("agent-select");
-const horaire = document.getElementById("horaire");
-const dateDepart = document.getElementById("dateDepart");
-const natureContrat = document.getElementById("natureContrat");
-const codeService = document.getElementById("codeService");
-const creation = document.getElementById("creation");
-const codeRemuneration = document.getElementById("codeRemuneration");
-const nom = document.getElementById("nom");
-const prenom = document.getElementById("prenom");
-
-const yearSelect = document.querySelector("#year-select");
-const timeline = document.getElementById("timeline");
 
 function getUniqueAgents(data) {
   const allAgents = Object.values(data).flat(); // Récupérer tous les agents de toutes les dates
@@ -167,142 +155,128 @@ function getDuplicateAgents(data) {
   return duplicateAgents;
 }
 
-function loadContent(page) {
+function handleYearChange(data, yearSelect) {
+  const selectedYear = yearSelect.value;
+  let values = Object.values(data);
+  const filteredData = values.map((val) => {
+    return val.filter((v) => v.dateSynchronisation.split("-")[0] === selectedYear);
+  });
+
+  const modifications = {};
+  Object.keys(filteredData).forEach((dateKey) => {
+    filteredData[dateKey].forEach((agent) => {
+      agent.lignes.forEach((modification) => {
+        modifications[modification.modification] = (modifications[modification.modification] || 0) + 1;
+      });
+    });
+  });
+
+  //console.log("modifications", modifications)
+  renderModifications(modifications);
+}
+
+function renderModifications(modifications) {
+  const horaire = document.getElementById("horaire");
+  const dateDepart = document.getElementById("dateDepart");
+  const natureContrat = document.getElementById("natureContrat");
+  const codeService = document.getElementById("codeService");
+  const creation = document.getElementById("creation");
+  const codeRemuneration = document.getElementById("codeRemuneration");
+  const nom = document.getElementById("nom");
+  const prenom = document.getElementById("prenom");
+
+  if (modifications.HORAIREHEBDOMADAIRE) {
+    horaire.innerText = `${modifications.HORAIREHEBDOMADAIRE}`;
+  }
+  if (modifications.CODEREMUNERATION) {
+    codeRemuneration.innerText = `${modifications.CODEREMUNERATION}`;
+  }
+  if (modifications.CODESERVICE) {
+    codeService.innerText = `${modifications.CODESERVICE}`;
+  }
+  if (modifications.DATEDEPART) {
+    dateDepart.innerText = `${modifications.DATEDEPART}`;
+  }
+  if (modifications.NATURECONTRAT) {
+    natureContrat.innerText = `${modifications.NATURECONTRAT}`;
+  }
+  if (modifications[""]) {
+    creation.innerText = `${modifications[""]}`;
+  }
+  if (modifications.NOM) {
+    nom.innerText = `${modifications.NOM}`;
+  }
+  if (modifications.PRENOM) {
+    prenom.innerText = `${modifications.PRENOM}`;
+  }
+}
+
+function loadContent(page, element) {
   fetch(`templates/${page}.html`)
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("content").innerHTML = data;
 
-      console.log("data", data)
+      // mise à jour de classes des éléments de navigation
+      const navLinks = document.querySelectorAll(".nav-link");
+      navLinks.forEach(link => {
+        link.classList.remove('active')
+      });
 
-      if (yearSelect) {
-        // Set default year to current year
-        const currentYear = new Date().getFullYear().toString();
-        yearSelect.value = currentYear;
+      if(element){
+        element.classList.add('active');
       }
 
-      let allModifications = {}; // Variable pour stocker toutes les modifications par agent
+      const selectAgents = document.getElementById("agent-select");
+      const yearSelect = document.querySelector("#year-select"); const timeline = document.getElementById("timeline");
+
+      if (yearSelect) { // Set default year to current year 
+        const currentYear = new Date().getFullYear().toString(); yearSelect.value = currentYear;
+      }
+
+      let allModifications = {}; // Variable pour stocker toutes les modifications par agent 
 
       fetch("./data/bd.json")
         .then((response) => response.json())
         .then((data) => {
-
-          console.log("groupByYear(data)", groupByYear(data))
-          console.log("getDuplicateAgents(data)", getDuplicateAgents(data))
-
           if (selectAgents) {
-            // Récupérer tous les agents disponibles
             const agents = getUniqueAgents(data);
 
             agents.sort((a, b) => a.numAgent - b.numAgent);
 
-            //console.log("agents", agents);
-            // Ajouter les agents au select
             agents.forEach((agent) => {
-              const option = document.createElement("option");
-              option.value = agent.numAgent;
+              const option = document.createElement("option"); option.value = agent.numAgent;
               option.text = `${agent.agent.split(" (")[0]} - ${agent.numAgent} `;
               selectAgents.appendChild(option);
             });
 
-            // Stocker toutes les modifications par agent
             allModifications = data;
           }
 
           if (yearSelect) {
             yearSelect.addEventListener("change", (e) => {
-              e.preventDefault(); // prevent page reload
-              const selectedYear = yearSelect.value;
-              //console.log(`Selected year: ${selectedYear}`);
-              let values = Object.values(data);
-              const filteredData = values.map((val) => {
-                return val.filter(
-                  (v) => v.dateSynchronisation.split("-")[0] === selectedYear
-                );
-              });
-              //console.log("filteredData", filteredData);
+              e.preventDefault();
+              handleYearChange(data, yearSelect);
+            });
+          }
 
-              // Extract unique agents
-              const agents = [
-                ...new Map(
-                  Object.values(filteredData).flatMap((date) =>
-                    date.map((agent) => [agent.numAgent, agent])
-                  )
-                ).values(),
-              ];
-
-              // Extract agents and modifications
-              const modifications = {};
-
-              Object.keys(filteredData).forEach((dateKey) => {
-                filteredData[dateKey].forEach((agent) => {
-                  agent.lignes.forEach((modification) => {
-                    modifications[modification.modification] =
-                      (modifications[modification.modification] || 0) + 1;
-                  });
-                });
-              });
-
-              // Render modifications
-              Object.keys(modifications).forEach((modification) => {
-                //console.log("modification", modification);
-                if (modification == "HORAIREHEBDOMADAIRE") {
-                  horaire.innerText = `${modifications[modification]}`;
-                }
-                if (modification == "CODEREMUNERATION") {
-                  //console.log("modification", modification);
-                  codeRemuneration.innerText = `${modifications[modification]}`;
-                }
-                if (modification == "CODESERVICE") {
-                  //console.log("modification", modification);
-                  codeService.innerText = `${modifications[modification]}`;
-                }
-                if (modification == "DATEDEPART") {
-                  //console.log("modification", modification);
-                  dateDepart.innerText = `${modifications[modification]}`;
-                }
-                if (modification == "NATURECONTRAT") {
-                  //console.log("modification", modification);
-                  natureContrat.innerText = `${modifications[modification]}`;
-                }
-                if (modification == "") {
-                  //console.log("modification", modification);
-                  creation.innerText = `${modifications[modification]}`;
-                }
-                if (modification == "NOM") {
-                  //console.log("modification", modification);
-                  nom.innerText = `${modifications[modification]}`;
-                }
-                if (modification == "PRENOM") {
-                  //console.log("modification", modification);
-                  prenom.innerText = `${modifications[modification]}`;
-                }
-              });
+          if (selectAgents) {
+            selectAgents.addEventListener("change", function () {
+              const selectedAgent = selectAgents.value;
+              const agentModifications = getAgentModifications(allModifications, selectedAgent);
+              renderTimeline(agentModifications);
             });
           }
         })
         .catch((error) => {
           console.error("Error:", error);
+
         });
-
-      if (selectAgents) {
-        selectAgents.addEventListener("change", function () {
-          const selectedAgent = selectAgents.value;
-          console.log("selectedAgent", selectedAgent);
-          const agentModifications = getAgentModifications(
-            allModifications,
-            selectedAgent
-          );
-          console.log(agentModifications);
-          renderTimeline(agentModifications);
-          // Faites quelque chose avec les modifications de l'agent sélectionné, comme les afficher dans l'interface utilisateur
-        });
-      }
-
-
     })
-    .catch(error => console.error("Error loading template:", error))
-};
+    .catch((error) => console.error("Error loading template:", error));
+}
+
+
 
 window.onload = function () {
   loadTemplate("header.html", "header")
