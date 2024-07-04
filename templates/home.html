@@ -1,0 +1,80 @@
+<section>
+    <div class="container mx-auto" style="width: 200px;">
+        <form novalidate>
+            <div class="row g-2">
+                <h3 class="text-center mt-5 ">Synthèse</h3>
+                <select class="form-select" aria-label="selectionner annee" id="year-select" required>
+                    <option selected>Choisir une année</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                </select>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="container">
+        <div class="card-group mx-4" style="margin-top: 20px;">
+            <div class="card">
+                <i class="bi bi-alarm" style="font-size: 2rem; text-align: center;"></i>
+                <div class="card-body">
+                    <h6 class="card-title" style="text-align: center;">Total de changement d'horaire hebdomadaire</h6>
+                    <p class="card-text" id="horaire" style="font-size: 3rem; text-align: center;"></p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="bi bi-calendar-x" style="font-size: 2rem; text-align: center;"></i>
+                <div class="card-body">
+                    <h6 class="card-title" style="text-align: center;">Total de départ</h6>
+                    <p class="card-text" id="dateDepart" style="font-size: 3rem; text-align: center;"></p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="bi bi-book" style="font-size: 2rem; text-align: center;"></i></i>
+                <div class="card-body">
+                    <h6 class="card-title" style="text-align: center;">Total de changement de nature du contrat</h6>
+                    <p class="card-text" id="natureContrat" style="font-size: 3rem; text-align: center;"></p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="bi bi-code-square" style="font-size: 2rem; text-align: center;"></i></i>
+                <div class="card-body">
+                    <h6 class="card-title" style="text-align: center;">Total de changement de code service</h6>
+                    <p class="card-text" id="codeService" style="font-size: 3rem; text-align: center;"></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-group mx-4" style="margin-top: 20px;">
+            <div class="card">
+                <i class="bi bi-pencil" style="font-size: 2rem; text-align: center;"></i></i>
+                <div class="card-body">
+                    <h6 class="card-title" style="text-align: center;">Total de création d'agents</h6>
+                    <p class="card-text" id="creation" style="font-size: 3rem; text-align: center;"></p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="bi bi-currency-euro" style="font-size: 2rem; text-align: center;"></i></i>
+                <div class="card-body">
+                    <h6 class="card-title" style="text-align: center;">Total de changement de code rémunération</h6>
+                    <p class="card-text" id="codeRemuneration" style="font-size: 3rem; text-align: center;"></p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="bi bi-person-vcard" style="font-size: 2rem; text-align: center;"></i></i>
+                <div class="card-body">
+                    <h6 class="card-title" style="text-align: center;">Total de changement de nom</h6>
+                    <p class="card-text" id="nom" style="font-size: 3rem; text-align: center;"></p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="bi bi-person-vcard-fill" style="font-size: 2rem; text-align: center;"></i></i>
+                <div class="card-body">
+                    <h6 class="card-title" style="text-align: center;">Total de changement de prénom</h6>
+                    <p class="card-text" id="prenom" style="font-size: 3rem; text-align: center;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
