@@ -1,4 +1,20 @@
 {
+  "RCI229720240709": [
+    {
+      "numAgent": 3277,
+      "agent": "BILLAUD BEATRICE V (3277)",
+      "entite": "UNITE QUALITE DE FACTURATION ",
+      "dateSynchronisation": "2024-07-04",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "25.0 ",
+          "apres": "39.0 "
+        }
+      ]
+    }
+  ],
   "RCI229720240708": [
     {
       "numAgent": 2510,
