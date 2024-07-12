@@ -252,7 +252,7 @@ function createLi(data, elementID) {
       if (itemIndex < data.length) {
         const li = document.createElement('li')
         li.className = 'list-group-item'
-        console.log('elementID', elementID)
+        
         if (elementID === 'columns-container') {
           li.textContent = `${data[itemIndex].numAgent} - ${
             data[itemIndex].agent.split(' (')[0]
@@ -304,10 +304,7 @@ function loadContent(page, element) {
         .then((dataDB) => {
           if (page === 'home') {
             let pdfArray = Object.keys(dataDB)
-            console.log('pdfArray', pdfArray)
             let pdfArray10FirstElements = pdfArray.slice(0, 10)
-            console.log('pdfArray10FirstElements', pdfArray10FirstElements)
-
             createLi(pdfArray10FirstElements, 'pdf-columns-container')
           }
 
