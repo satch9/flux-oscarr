@@ -1,4 +1,192 @@
 {
+  "RCI229720240714": [
+    {
+      "numAgent": 4717,
+      "agent": "LEBIAN JULIEN (4717)",
+      "entite": "COMPL. SANTE SOLIDAIRE NORD SECT 1 ",
+      "dateSynchronisation": "2024-07-11",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "M2212 ",
+          "apres": "U0213 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5379,
+      "agent": "PEDIL MATHILDE (5379)",
+      "entite": "BUDGET ",
+      "dateSynchronisation": "2024-07-11",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "28.0 ",
+          "apres": "39.0 "
+        }
+      ]
+    },
+    {
+      "numAgent": 1890,
+      "agent": "PLANTE BEATRICE (1890)",
+      "entite": "GDB EST ",
+      "dateSynchronisation": "2024-07-11",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "M2240 ",
+          "apres": "M2220 "
+        }
+      ]
+    }
+  ],
+  "RCI229720240712": [
+    {
+      "numAgent": 6514,
+      "agent": "LALLEMAND GEROME (6514)",
+      "entite": "GESTION ADMINISTRATIVE DU PERSONNEL ",
+      "dateSynchronisation": "2024-07-09",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    }
+  ],
+  "RCI229720240711": [
+    {
+      "numAgent": 6403,
+      "agent": "AHAMED RAMNA (6403)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2024-07-08",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "30/06/2024 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 6486,
+      "agent": "COUZINIER PAULINE (6486)",
+      "entite": "SERVICE SOCIAL OUEST ",
+      "dateSynchronisation": "2024-07-08",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "30/06/2024 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 6515,
+      "agent": "FERRERE GREGORY (6515)",
+      "entite": "ATELIER ",
+      "dateSynchronisation": "2024-07-08",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6513,
+      "agent": "HOAREAU MIGUY (6513)",
+      "entite": "AC PL-PAM ",
+      "dateSynchronisation": "2024-07-08",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    },
+    {
+      "numAgent": 6409,
+      "agent": "MARIN SONIA (6409)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2024-07-08",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "N0420 ",
+          "apres": "N0130 "
+        },
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "23/10/2023 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 6448,
+      "agent": "PAUSE MARIE PRISCA (6448)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2024-07-08",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "N0420 ",
+          "apres": "N0111 "
+        },
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "31/03/2024 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 6516,
+      "agent": "VINGADASSALOM ANAIS (6516)",
+      "entite": "RAF TI RG ERAF ",
+      "dateSynchronisation": "2024-07-08",
+      "lignes": [
+        {
+          "action": "C",
+          "modification": "",
+          "avant": "",
+          "apres": ""
+        }
+      ]
+    }
+  ],
+  "RCI229720240709": [
+    {
+      "numAgent": 3277,
+      "agent": "BILLAUD BEATRICE V (3277)",
+      "entite": "UNITE QUALITE DE FACTURATION ",
+      "dateSynchronisation": "2024-07-04",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "25.0 ",
+          "apres": "39.0 "
+        }
+      ]
+    }
+  ],
   "RCI229720240708": [
     {
       "numAgent": 2510,
@@ -285,7 +473,7 @@
     {
       "numAgent": 6512,
       "agent": "NATIVEL MAZARINE (6512)",
-      "entite": "",
+      "entite": "PROMOTION OFFRES DE SERVICES ",
       "dateSynchronisation": "2024-07-01",
       "lignes": [
         {
@@ -3115,7 +3303,7 @@
     {
       "numAgent": 4452,
       "agent": "SUTRA CLOTILDE (4452)",
-      "entite": "GESTION DES EMPLOIS ET DES COMPETENCES ",
+      "entite": "RESSOURCES HUMAINES ",
       "dateSynchronisation": "2024-04-16",
       "lignes": [
         {
@@ -3849,7 +4037,7 @@
     {
       "numAgent": 4452,
       "agent": "SUTRA CLOTILDE (4452)",
-      "entite": "GESTION DES EMPLOIS ET DES COMPETENCES ",
+      "entite": "RESSOURCES HUMAINES ",
       "dateSynchronisation": "2024-03-25",
       "lignes": [
         {
@@ -11317,7 +11505,7 @@
     {
       "numAgent": 5085,
       "agent": "FONTAINE DANIELLE VALERI (5085)",
-      "entite": "RAF TI RG ERAF ",
+      "entite": "POLE EXP JURIDIQUE CTX RECOUVREMENT ",
       "dateSynchronisation": "2023-06-20",
       "lignes": [
         {
@@ -15319,7 +15507,7 @@
     {
       "numAgent": 4730,
       "agent": "LEONARD MARC JEAN RENE (4730)",
-      "entite": "AGENCE RET. NORD RG ET TI ",
+      "entite": "SECURITE ET HYGIENE ",
       "dateSynchronisation": "2023-01-13",
       "lignes": [
         {
@@ -17045,7 +17233,7 @@
     {
       "numAgent": 5114,
       "agent": "LOPEZ SABRINA (5114)",
-      "entite": "Depart ",
+      "entite": "CELLULE EXPERTISE RETRAITE ",
       "dateSynchronisation": "2022-11-15",
       "lignes": [
         {
@@ -17075,7 +17263,7 @@
     {
       "numAgent": 5114,
       "agent": "LOPEZ SABRINA (5114)",
-      "entite": "Depart ",
+      "entite": "CELLULE EXPERTISE RETRAITE ",
       "dateSynchronisation": "2022-11-14",
       "lignes": [
         {
@@ -17531,7 +17719,7 @@
     {
       "numAgent": 5085,
       "agent": "FONTAINE DANIELLE VALERI (5085)",
-      "entite": "RAF TI RG ERAF ",
+      "entite": "POLE EXP JURIDIQUE CTX RECOUVREMENT ",
       "dateSynchronisation": "2022-11-02",
       "lignes": [
         {
@@ -17759,7 +17947,7 @@
     {
       "numAgent": 4908,
       "agent": "ILAMOUCHA FRANTZ MAURICE (4908)",
-      "entite": "POLE EXP JURIDIQUE CTX RECOUVREMENT ",
+      "entite": "POLE EXPERTISE JURIDIQUE ",
       "dateSynchronisation": "2022-10-25",
       "lignes": [
         {
@@ -21807,7 +21995,7 @@
     {
       "numAgent": 5114,
       "agent": "LOPEZ SABRINA (5114)",
-      "entite": "Depart ",
+      "entite": "CELLULE EXPERTISE RETRAITE ",
       "dateSynchronisation": "2022-07-19",
       "lignes": [
         {
@@ -22849,7 +23037,7 @@
     {
       "numAgent": 5085,
       "agent": "FONTAINE DANIELLE VALERI (5085)",
-      "entite": "RAF TI RG ERAF ",
+      "entite": "POLE EXPERTISE JURIDIQUE ",
       "dateSynchronisation": "2022-06-16",
       "lignes": [
         {
@@ -23111,7 +23299,7 @@
     {
       "numAgent": 4906,
       "agent": "HUNE SAM SANDRINE EMMANU (4906)",
-      "entite": "SECRETARIAT DIR RECOUVREMENT DAJ ",
+      "entite": "RELATIONS INTERNES CLIENTS RH ",
       "dateSynchronisation": "2022-06-07",
       "lignes": [
         {
@@ -23345,7 +23533,7 @@
     {
       "numAgent": 5114,
       "agent": "LOPEZ SABRINA (5114)",
-      "entite": "Depart ",
+      "entite": "CELLULE EXPERTISE RETRAITE ",
       "dateSynchronisation": "2022-06-02",
       "lignes": [
         {
@@ -23809,7 +23997,7 @@
     {
       "numAgent": 4730,
       "agent": "LEONARD MARC JEAN RENE (4730)",
-      "entite": "AGENCE RET. NORD RG ET TI ",
+      "entite": "SECURITE ET HYGIENE ",
       "dateSynchronisation": "2022-05-20",
       "lignes": [
         {
@@ -25463,7 +25651,7 @@
     {
       "numAgent": 4730,
       "agent": "LEONARD MARC JEAN RENE (4730)",
-      "entite": "AGENCE RET. NORD RG ET TI ",
+      "entite": "SECURITE ET HYGIENE ",
       "dateSynchronisation": "2022-03-21",
       "lignes": [
         {
@@ -25927,7 +26115,7 @@
     {
       "numAgent": 4730,
       "agent": "LEONARD MARC JEAN RENE (4730)",
-      "entite": "AGENCE RET. NORD RG ET TI ",
+      "entite": "SECURITE ET HYGIENE ",
       "dateSynchronisation": "2022-03-04",
       "lignes": [
         {
@@ -26099,7 +26287,7 @@
     {
       "numAgent": 5085,
       "agent": "FONTAINE DANIELLE VALERI (5085)",
-      "entite": "RAF TI RG ERAF ",
+      "entite": "POLE EXPERTISE JURIDIQUE ",
       "dateSynchronisation": "2022-03-01",
       "lignes": [
         {
@@ -26127,7 +26315,7 @@
     {
       "numAgent": 4908,
       "agent": "ILAMOUCHA FRANTZ MAURICE (4908)",
-      "entite": "POLE EXP JURIDIQUE CTX RECOUVREMENT ",
+      "entite": "POLE EXPERTISE JURIDIQUE ",
       "dateSynchronisation": "2022-03-01",
       "lignes": [
         {
@@ -26155,7 +26343,7 @@
     {
       "numAgent": 5008,
       "agent": "MOUTOUSSAMY ANNE-SOPHIE (5008)",
-      "entite": "POLE EXP JURIDIQUE CTX PRESTATIONS ",
+      "entite": "POLE EXPERTISE JURIDIQUE ",
       "dateSynchronisation": "2022-03-01",
       "lignes": [
         {
@@ -26269,7 +26457,7 @@
     {
       "numAgent": 5114,
       "agent": "LOPEZ SABRINA (5114)",
-      "entite": "Depart ",
+      "entite": "CELLULE EXPERTISE RETRAITE ",
       "dateSynchronisation": "2022-02-28",
       "lignes": [
         {
@@ -26875,7 +27063,7 @@
     {
       "numAgent": 4730,
       "agent": "LEONARD MARC JEAN RENE (4730)",
-      "entite": "AGENCE RET. NORD RG ET TI ",
+      "entite": "SECURITE ET HYGIENE ",
       "dateSynchronisation": "2022-02-10",
       "lignes": [
         {
@@ -27297,7 +27485,7 @@
     {
       "numAgent": 4908,
       "agent": "ILAMOUCHA FRANTZ MAURICE (4908)",
-      "entite": "POLE EXP JURIDIQUE CTX RECOUVREMENT ",
+      "entite": "GESTION CONTENTIEUX ",
       "dateSynchronisation": "2022-01-21",
       "lignes": [
         {
@@ -28391,7 +28579,7 @@
     {
       "numAgent": 5085,
       "agent": "FONTAINE DANIELLE VALERI (5085)",
-      "entite": "RAF TI RG ERAF ",
+      "entite": "GESTION CONTENTIEUX ",
       "dateSynchronisation": "2021-11-09",
       "lignes": [
         {
@@ -28757,7 +28945,7 @@
     {
       "numAgent": 4908,
       "agent": "ILAMOUCHA FRANTZ MAURICE (4908)",
-      "entite": "POLE EXP JURIDIQUE CTX RECOUVREMENT ",
+      "entite": "GESTION CONTENTIEUX ",
       "dateSynchronisation": "2021-11-17",
       "lignes": [
         {
@@ -28974,7 +29162,7 @@
     },
     {
       "numAgent": 4873,
-      "agent": "(4873)",
+      "agent": "DACOUX-SEVAMY SANDY MARIE AUDREY (4873)",
       "entite": "IJ NORD ",
       "dateSynchronisation": "2021-11-30",
       "lignes": [
@@ -29333,7 +29521,7 @@
     {
       "numAgent": 4969,
       "agent": "HEBERT FLORENCE SOPHIE (4969)",
-      "entite": "SECURITE ET HYGIENE ",
+      "entite": "IJ NORD ",
       "dateSynchronisation": "2021-12-13",
       "lignes": [
         {
@@ -29497,7 +29685,7 @@
     {
       "numAgent": 4906,
       "agent": "HUNE SAM SANDRINE EMMANU (4906)",
-      "entite": "SECRETARIAT DIR RECOUVREMENT DAJ ",
+      "entite": "SECRETARIAT DE DIRECTION DCF ",
       "dateSynchronisation": "2021-12-23",
       "lignes": [
         {

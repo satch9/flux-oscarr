@@ -231,27 +231,41 @@ function renderModifications(modifications) {
   }
 }
 
-function createLi(data){
-  const numColummns = 4
+function createLi(data, elementID) {
+  let numColummns
+  if (elementID === 'columns-container') {
+    numColummns = 4
+  } else {
+    numColummns = 1
+  }
+
   const itemsPerColumn = Math.ceil(data.length / numColummns)
-  const container = document.getElementById("columns-container")
+  const container = document.getElementById(elementID)
 
   for (let i = 0; i < numColummns; i++) {
-    const column = document.createElement("div")
-    column.className ="col"
-    const ul= document.createElement("ul")
-    ul.className ="list-group"
+    const column = document.createElement('div')
+    column.className = 'col'
+    const ol = document.createElement('ol')
+    ol.className = 'list-group list-group-numbered'
     for (let j = 0; j < itemsPerColumn; j++) {
-      const itemIndex = i * itemsPerColumn + j 
-      if(itemIndex < data.length){
-        const li = document.createElement("li")
-        li.className ="list-group-item"
-        li.textContent = `${data[itemIndex].numAgent} - ${data[itemIndex].agent.split(' (')[0]}`
+      const itemIndex = i * itemsPerColumn + j
+      if (itemIndex < data.length) {
+        const li = document.createElement('li')
+        li.className = 'list-group-item'
+        console.log('elementID', elementID)
+        if (elementID === 'columns-container') {
+          li.textContent = `${data[itemIndex].numAgent} - ${
+            data[itemIndex].agent.split(' (')[0]
+          }`
+        } else {
+          li.textContent = `${data[itemIndex]}`
+        }
+
         /* li.textContent = `${data[itemIndex].numAgent} - ${data[itemIndex].agent.split(' (')[0]} || ${(new Date(data[itemIndex].dateSynchronisation)).getFullYear()} ` */
-        ul.appendChild(li)
+        ol.appendChild(li)
       }
     }
-    column.appendChild(ul)
+    column.appendChild(ol)
     container.appendChild(column)
   }
 }
@@ -288,6 +302,15 @@ function loadContent(page, element) {
       fetch('./data/bd.json')
         .then((response) => response.json())
         .then((dataDB) => {
+          if (page === 'home') {
+            let pdfArray = Object.keys(dataDB)
+            console.log('pdfArray', pdfArray)
+            let pdfArray10FirstElements = pdfArray.slice(0, 10)
+            console.log('pdfArray10FirstElements', pdfArray10FirstElements)
+
+            createLi(pdfArray10FirstElements, 'pdf-columns-container')
+          }
+
           if (selectAgents) {
             const agents = getUniqueAgents(dataDB)
 
@@ -324,17 +347,16 @@ function loadContent(page, element) {
           if (sansEntites) {
             let agentsSansEntites = getAgentsSansEntites(dataDB)
 
-            
-
-            agentsSansEntites
-              .sort((a, b) => b.numAgent - a.numAgent)
+            agentsSansEntites.sort((a, b) => b.numAgent - a.numAgent)
 
             agentsSansEntites = getUniqueAgents(agentsSansEntites)
 
-            const titreNbreAgentsSansEntites = document.getElementById("titreNbreAgentsSansEntites")
+            const titreNbreAgentsSansEntites = document.getElementById(
+              'titreNbreAgentsSansEntites',
+            )
             titreNbreAgentsSansEntites.innerHTML = `Nombre d'agents : ${agentsSansEntites.length}`
 
-            createLi(agentsSansEntites)
+            createLi(agentsSansEntites, 'columns-container')
           }
         })
         .catch((error) => {
