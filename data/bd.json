@@ -1,4 +1,198 @@
 {
+  "RCI229720240716": [
+    {
+      "numAgent": 6284,
+      "agent": "AUROKIUM KENZA NATHALIE (6284)",
+      "entite": "UNITE QUALITE DE FACTURATION ",
+      "dateSynchronisation": "2024-07-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "NOM",
+          "avant": "AFFEJEE ",
+          "apres": "AUROKIUM "
+        },
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "U0004 ",
+          "apres": "M2511 "
+        },
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10002S ",
+          "apres": "10003S "
+        },
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "36.0 ",
+          "apres": "39.0 "
+        },
+        {
+          "action": "M",
+          "modification": "NATURECONTRAT",
+          "avant": "D ",
+          "apres": "I "
+        },
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "30/04/2022 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 6494,
+      "agent": "BASSONVILLE ALIZEE (6494)",
+      "entite": "Depart ",
+      "dateSynchronisation": "2024-07-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "null ",
+          "apres": "08/07/2024 "
+        }
+      ]
+    },
+    {
+      "numAgent": 6343,
+      "agent": "CAVANE MARIE-CECILIA (6343)",
+      "entite": ACTION SANITAIRE ET SOCIALE ",
+      "dateSynchronisation": "2024-07-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "N0420 ",
+          "apres": "N0200 "
+        },
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10002S ",
+          "apres": "10003S "
+        },
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "36.0 ",
+          "apres": "39.0 "
+        },
+        {
+          "action": "M",
+          "modification": "NATURECONTRAT",
+          "avant": "D ",
+          "apres": "I "
+        },
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "05/05/2023 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 6342,
+      "agent": "CHANE-WING LESLIE (6342)",
+      "entite": "AGENCE RETRAITE OUEST ",
+      "dateSynchronisation": "2024-07-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "N0420 ",
+          "apres": "N0130 "
+        },
+        {
+          "action": "M",
+          "modification": "CODEREMUNERATION",
+          "avant": "10002S ",
+          "apres": "10003S "
+        },
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "36.0 ",
+          "apres": "39.0 "
+        },
+        {
+          "action": "M",
+          "modification": "NATURECONTRAT",
+          "avant": "D ",
+          "apres": "I "
+        },
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "10/06/2023 ",
+          "apres": "null "
+        }
+      ]
+    },
+    {
+      "numAgent": 1846,
+      "agent": "FATOL CORINE M DAISY (1846)",
+      "entite": "RECONNAISSANCE AT/MP ST PAUL ",
+      "dateSynchronisation": "2024-07-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "38.0 ",
+          "apres": "17.5 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5362,
+      "agent": "FREDOUILLE MARION (5362)",
+      "entite": "GESTION ADMINISTRATIVE DU PERSONNEL ",
+      "dateSynchronisation": "2024-07-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "HORAIREHEBDOMADAIRE",
+          "avant": "32.0 ",
+          "apres": "39.0 "
+        }
+      ]
+    },
+    {
+      "numAgent": 5850,
+      "agent": "PADER NELLY (5850)",
+      "entite": "PROMOTION OFFRES DE SERVICES ",
+      "dateSynchronisation": "2024-07-15",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "CODESERVICE",
+          "avant": "U0311 ",
+          "apres": "U0210 "
+        }
+      ]
+    }
+  ],
+  "RCI229720240715": [
+    {
+      "numAgent": 6367,
+      "agent": "TECHER CHLOE (6367)",
+      "entite": "GFE ",
+      "dateSynchronisation": "2024-07-12",
+      "lignes": [
+        {
+          "action": "M",
+          "modification": "DATEDEPART",
+          "avant": "30/06/2024 ",
+          "apres": "null "
+        }
+      ]
+    }
+  ],
   "RCI229720240714": [
     {
       "numAgent": 4717,
@@ -9975,7 +10169,7 @@
     {
       "numAgent": 6367,
       "agent": "TECHER CHLOE (6367)",
-      "entite": "GFE ",
+      "entite": "RECONNAISSANCE AT/MP ST PAUL ",
       "dateSynchronisation": "2023-08-28",
       "lignes": [
         {
@@ -10255,7 +10449,7 @@
     {
       "numAgent": 6367,
       "agent": "TECHER CHLOE (6367)",
-      "entite": "GFE ",
+      "entite": "RECONNAISSANCE AT/MP ST PAUL ",
       "dateSynchronisation": "2023-08-07",
       "lignes": [
         {
@@ -16555,7 +16749,7 @@
     {
       "numAgent": 6367,
       "agent": "TECHER CHLOE (6367)",
-      "entite": "GFE ",
+      "entite": "ACCUEIL PHYSIQUE NORD ",
       "dateSynchronisation": "2023-01-02",
       "lignes": [
         {
@@ -17321,7 +17515,7 @@
     {
       "numAgent": 6367,
       "agent": "TECHER CHLOE (6367)",
-      "entite": "GFE ",
+      "entite": "ACCUEIL PHYSIQUE NORD ",
       "dateSynchronisation": "2022-11-08",
       "lignes": [
         {
@@ -26609,7 +26803,7 @@
     {
       "numAgent": 6284,
       "agent": "AFFEJEE KENZA NATHALIE (6284)",
-      "entite": "Depart ",
+      "entite": "CONTACT TRACING NORD ",
       "dateSynchronisation": "2022-02-16",
       "lignes": [
         {
