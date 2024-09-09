@@ -1,4 +1,4 @@
-function getUniqueAgents(data) {
+/* function getUniqueAgents(data) {
   const allAgents = Object.values(data).flat() // Récupérer tous les agents de toutes les dates
   const uniqueAgents = Array.from(
     new Set(allAgents.map((agent) => agent.numAgent)),
@@ -6,6 +6,16 @@ function getUniqueAgents(data) {
   return uniqueAgents.map((numAgent) =>
     allAgents.find((agent) => agent.numAgent === numAgent),
   ) // Retourner les informations complètes des agents uniques
+} */
+
+function getUniqueAgents(data) {
+  const allAgents = Object.values(data).flat() // Get all agents across all dates
+  const uniqueAgents = Array.from(
+    new Set(allAgents.map((agent) => agent.numAgent)),
+  ) // Get unique agent numbers
+  return uniqueAgents.map((numAgent) =>
+    allAgents.find((agent) => agent.numAgent === numAgent),
+  ) // Return unique agent data
 }
 
 function getAgentModifications(data, agentNum) {
@@ -310,6 +320,20 @@ function createOrgChart(data, parentElement) {
   return ul
 }
 
+function renderAgentOptions(agents) {
+  const selectAgents = document.getElementById('agent-select')
+  selectAgents.innerHTML = '' // Clear existing options
+
+  agents.sort((a, b) => a.numAgent - b.numAgent) // Sort agents by numAgent
+
+  agents.forEach((agent) => {
+    const option = document.createElement('option')
+    option.value = agent.numAgent
+    option.text = `${agent.agent.split(' (')[0]} - ${agent.numAgent}`
+    selectAgents.appendChild(option)
+  })
+}
+
 function loadContent(page, element) {
   fetch(`templates/${page}.html`)
     .then((response) => response.text())
@@ -330,7 +354,7 @@ function loadContent(page, element) {
       const yearSelect = document.querySelector('#year-select')
       //const timeline = document.getElementById("timeline");
       const sansEntites = document.getElementById('sansEntites')
-      const agentsPartis = document.querySelector('#agentsDeparts')
+      const agentsPartisCheckbox = document.querySelector('#agentsDeparts')
 
       if (yearSelect) {
         // Set default year to current year
@@ -339,17 +363,38 @@ function loadContent(page, element) {
       }
 
       let allModifications = {} // Variable pour stocker toutes les modifications par agent
+      let allAgents = []
+      let filteredAgents = []
 
       fetch('./data/bd.json')
         .then((response) => response.json())
         .then((dataDB) => {
+          allAgents = getUniqueAgents(dataDB)
+
           if (page === 'home') {
             let pdfArray = Object.keys(dataDB)
             let pdfArray10FirstElements = pdfArray.slice(0, 10)
             createLi(pdfArray10FirstElements, 'pdf-columns-container')
           }
 
-          if (selectAgents) {
+          // If checkbox is clicked, filter agents
+          if (agentsPartisCheckbox) {
+            agentsPartisCheckbox.addEventListener('change', (e) => {
+              if (e.target.checked) {
+                // Filter agents that have 'Depart' in entite (i.e., left the company)
+                filteredAgents = allAgents.filter(
+                  (agent) => agent.entite.trim() === 'Depart',
+                )
+              } else {
+                // If unchecked, show all agents
+                filteredAgents = allAgents
+              }
+              // Render the filtered agents
+              renderAgentOptions(filteredAgents)
+            })
+          }
+
+          /* if (selectAgents) {
             let agents
             agentsPartis.addEventListener('click', (e) => {
               agents = getUniqueAgents(dataDB)
@@ -374,7 +419,7 @@ function loadContent(page, element) {
             })
 
             allModifications = dataDB
-          }
+          } */
 
           if (yearSelect) {
             yearSelect.addEventListener('change', (e) => {
@@ -416,25 +461,27 @@ function loadContent(page, element) {
       const orgChartContainer = document.getElementById('org-chart')
       const date_validite = document.getElementById('date_validite')
 
-      fetch('./data/entites.json')
-        .then((response) => response.json())
-        .then((dataStructureEntites) => {
-          console.log('dataStructureEntites', dataStructureEntites)
-          for (const key in dataStructureEntites) {
-            console.log('key', key)
-            dataStructureEntites[key].forEach((entite) => {
-              console.log('structure', entite)
-              if (date_validite) {
-                date_validite.innerHTML = `En date du ${entite.date_validite_schema}`
-              }
+      if (orgChartContainer) {
+        fetch('./data/entites.json')
+          .then((response) => response.json())
+          .then((dataStructureEntites) => {
+            console.log('dataStructureEntites', dataStructureEntites)
+            for (const key in dataStructureEntites) {
+              console.log('key', key)
+              dataStructureEntites[key].forEach((entite) => {
+                console.log('structure', entite)
+                if (date_validite) {
+                  date_validite.innerHTML = `En date du ${entite.date_validite_schema}`
+                }
 
-              createOrgChart(entite.structure, orgChartContainer)
-            })
-          }
-        })
-        .catch((error) => {
-          console.error('Error:', error)
-        })
+                createOrgChart(entite.structure, orgChartContainer)
+              })
+            }
+          })
+          .catch((error) => {
+            console.error('Error:', error)
+          })
+      }
     })
     .catch((error) => console.error('Error loading template:', error))
 }
