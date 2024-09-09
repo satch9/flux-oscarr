@@ -3,19 +3,19 @@ body {
   margin: 20px;
   display: flex;
   justify-content: space-around;
-  height:100vh;
+  height: 100vh;
 }
 
 .nav-tabs .nav-link.active {
   background-color: #2278fa;
-  color:#e9ecef;
+  color: #e9ecef;
   font-weight: bold;
 }
 
-#footer{
+#footer {
   width: 100%;
   margin-top: 20px;
-  text-align:center;
+  text-align: center;
 }
 
 .timeline {
@@ -90,6 +90,36 @@ body {
   text-align: start;
 }
 
-.sansEntitesLi{
+.sansEntitesLi {
   padding: 5px;
+}
+
+.structureEntitesContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.direction {
+  background-color: darkgrey;
+  font-weight: bold;
+}
+
+.sous-direction {
+  margin-left: 20px;
+  background-color: darkgoldenrod;
+}
+
+.departement {
+  margin-left: 40px;
+  background-color: rgb(111, 204, 111);
+}
+
+.service {
+  margin-left: 60px;
+  background-color: #8383ca;
+}
+
+.pole {
+  margin-left: 80px;
 }

@@ -1,0 +1,1497 @@
+{
+    "data": [
+      {
+        "date_validite_schema": "06/09/2024",
+        "structure": [
+          {
+            "code": "A0000",
+            "libelle": "DIRECTION GENERALE",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "I0000",
+            "libelle": "DIRECTION FINANCIERE ET COMPTABLE",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "I0001",
+            "libelle": "SECRETARIAT DE DIRECTION DCF",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0100",
+            "libelle": "COTIS./INDUS/OPPOSITIONS/REG. AGRICOLE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "I0101",
+            "libelle": "TRESORERIE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0102",
+            "libelle": "CONTROLE NSA SAINT ANDRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0103",
+            "libelle": "CONTROLE NSA SAINT PIERRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0110",
+            "libelle": "RECOUVREMENT ET COTISATIONS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0111",
+            "libelle": "CONTROLE RECOUVREMENT",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0112",
+            "libelle": "COMPTABILITE RECOUVREMENT",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0120",
+            "libelle": "INDUS/OPPOSITIONS/REG. AGRICOLE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0121",
+            "libelle": "INDUS ET OPPOSITIONS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0122",
+            "libelle": "REGIME AGRICOLE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0200",
+            "libelle": "GESTION BUDGETAIRE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "I0210",
+            "libelle": "GEST. BUD. ET RAPPROCHEMENTS BANCAIRES",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0211",
+            "libelle": "CONTROLE PAIE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0212",
+            "libelle": "REIMPUTATION ET RAPPROCH. BANCAIRES",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0213",
+            "libelle": "CONTROLE BUDGET",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0300",
+            "libelle": "GEST.TECHN.MAL.RET.COMPTA GEN.ETBT",
+            "Niveau": "Département",
+            "Description": "Gestion Technique Maladie et Retraite, Comptabilité Générale, Etablissements"
+          },
+          {
+            "code": "I0310",
+            "libelle": "Appli Comptable Santé Nationale, Etablissements",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0311",
+            "libelle": "COMPTA-ETABLISSEMENTS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0312",
+            "libelle": "APPLI COMPTA. SANTE NATIONALE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0320",
+            "libelle": "COMPTABILITE PRESTATIONS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0321",
+            "libelle": "Applications Comptables, Adm / Délégations",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0322",
+            "libelle": "COMPTABILITE PRESTATIONS MALADIE/RETRAITE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0340",
+            "libelle": "CONTROLE SANTE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0341",
+            "libelle": "PE SAINT DENIS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0342",
+            "libelle": "PE SAINT PIERRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0343",
+            "libelle": "PE RAT/INV",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0345",
+            "libelle": "PN FSE/FSP",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0350",
+            "libelle": "CONTROLE RETRAITE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0351",
+            "libelle": "RG CONTROLE PRESTATIONS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0352",
+            "libelle": "RG CONTROLE DES CARRIERES",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0353",
+            "libelle": "RG GEST. COMPTES PRESTATAIRES",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0354",
+            "libelle": "RA CONTROLE AVA",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "I0400",
+            "libelle": "POLE APPUI PILOTAGE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "I0410",
+            "libelle": "MAITRISE DES RISQUES",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0420",
+            "libelle": "PSSI PCA",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0430",
+            "libelle": "OPTIMISATION DES PROCESSUS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "I0440",
+            "libelle": "AUDITS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "J0000",
+            "libelle": "DIRECTION PREVENTION DES RISQUES PROF.",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "J0100",
+            "libelle": "PREVENTION ENTREPRISE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "J0101",
+            "libelle": "PREVENTION ENTREPRISE ST PIERRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "L0001",
+            "libelle": "DIRECTION RESSOURCES",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "L1000",
+            "libelle": "RESSOURCES HUMAINES",
+            "Niveau": "Sous-Direction",
+            "Description": ""
+          },
+          {
+            "code": "L1100",
+            "libelle": "GESTION ADMINISTRATIVE DU PERSONNEL",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "L1200",
+            "libelle": "GESTION DES EMPLOIS ET DES COMPETENCES",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "L1300",
+            "libelle": "SUPPORT ET PILOTAGE RH",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "L1400",
+            "libelle": "CONSEIL JURIDIQUE REL. INDIVIDUELLES",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "L1500",
+            "libelle": "PERSONNELS DETACHES",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "L2000",
+            "libelle": "RELATIONS INTERNES CLIENTS RH",
+            "Niveau": "Sous-Direction",
+            "Description": ""
+          },
+          {
+            "code": "L2200",
+            "libelle": "POLE GESTION DES SITUATIONS INDIVIDUELLES",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "L3000",
+            "libelle": "CONSEIL JURIDIQUE REL.COLLECTIVES",
+            "Niveau": "Sous-Direction",
+            "Description": ""
+          },
+          {
+            "code": "L4000",
+            "libelle": "DEPARTEMENT DES MOYENS",
+            "Niveau": "Sous-Direction",
+            "Description": ""
+          },
+          {
+            "code": "L4100",
+            "libelle": "DEPARTEMENT IMMOBILIER",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "L4110",
+            "libelle": "ATELIER",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "L4120",
+            "libelle": "SECURITE ET HYGIENE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "L4121",
+            "libelle": "SECURITE ET HYGIENE EST",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "L4130",
+            "libelle": "ETUDES",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "L4200",
+            "libelle": "DEPARTEMENT ACHATS ET MARCHES PUBLICS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "L4210",
+            "libelle": "SITE DE SAINTE MARIE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "L4220",
+            "libelle": "ACHATS ET MARCHES PUBLICS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "L4300",
+            "libelle": "DEPARTEMENT BUDGET",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "L4310",
+            "libelle": "BUDGET",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M0000",
+            "libelle": "DIRECTION SANTE ASSURANCE MALADIE",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "M0001",
+            "libelle": "SECRETARIAT DIRECTION SANTE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M1000",
+            "libelle": "LUTTE CONTRE LA FRAUDE",
+            "Niveau": "Sous-Direction",
+            "Description": ""
+          },
+          {
+            "code": "M1300",
+            "libelle": "POLE ASSURES PS PRESCRIPTEURS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M1400",
+            "libelle": "POLE PS PRESCRITS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M1410",
+            "libelle": "POLE PS PRESCRITS NORD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M1411",
+            "libelle": "POLE PS PRESCRITS SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M1500",
+            "libelle": "POLE SUPPORT LCF",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M2000",
+            "libelle": "SECTEUR PRODUCTION SANTE",
+            "Niveau": "Sous-Direction",
+            "Description": ""
+          },
+          {
+            "code": "M2100",
+            "libelle": "RECLAMATION PS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M2200",
+            "libelle": "COMPL.SANTE SOLIDAIRE/GDB",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M2210",
+            "libelle": "COMPLEMENTAIRE SANTE SOLIDAIRE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M2211",
+            "libelle": "COMPL. SANTE SOLIDAIRE NORD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2212",
+            "libelle": "COMPL. SANTE SOLIDAIRE NORD SECT 1",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2213",
+            "libelle": "COMPL. SANTE SOLIDAIRE SECT 2",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2214",
+            "libelle": "COMPL. SANTE SOLIDAIRE SECT 3",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2215",
+            "libelle": "COMPL. SANTE SOLIDAIRE SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2218",
+            "libelle": "C2S",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2219",
+            "libelle": "RENOUVELLEMENT AUTO RSA",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2220",
+            "libelle": "GDB NORD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M2230",
+            "libelle": "GDB SUD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M2240",
+            "libelle": "GDB EST",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M2300",
+            "libelle": "PRESTATIONS ESPECES",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M2310",
+            "libelle": "IJ AS/AMEXA/CDC/INVAL",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M2311",
+            "libelle": "IJ NORD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2312",
+            "libelle": "IJ SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2313",
+            "libelle": "IJ OUEST",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2314",
+            "libelle": "IJ EST",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2319",
+            "libelle": "IJ AS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2320",
+            "libelle": "RISQUES PROFESSIONNELS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M2321",
+            "libelle": "RECONNAISSANCE AT/MP ST PAUL",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2322",
+            "libelle": "IJ RENTES/ATEXA",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2323",
+            "libelle": "ENQUETES AT",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2324",
+            "libelle": "ENQUETES AT ST PIERRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2325",
+            "libelle": "ENQUETES AT ST LOUIS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2326",
+            "libelle": "IJ AT/MP",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2327",
+            "libelle": "Rentes AT/MP",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2500",
+            "libelle": "FRAIS DE SANTE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M2510",
+            "libelle": "POLE CONTRÔLE FACTURATION",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M2511",
+            "libelle": "UNITE QUALITE DE FACTURATION",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2512",
+            "libelle": "UNITE GESTION NON CONFORMES",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2520",
+            "libelle": "POLE FACTURATION SOINS DE VILLE ET ETB",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M2521",
+            "libelle": "UNITE FSE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2522",
+            "libelle": "UNITE FSP",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M2523",
+            "libelle": "UNITE ETABLISSEMENTS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M3000",
+            "libelle": "DIR GESTION DU RISQUE",
+            "Niveau": "Sous-Direction",
+            "Description": ""
+          },
+          {
+            "code": "M3300",
+            "libelle": "ACCOMP OFFREURS DE SOINS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M3310",
+            "libelle": "CAM SAINT DENIS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M3311",
+            "libelle": "CAM SAINT PIERRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M3320",
+            "libelle": "DAM/CIS SAINT DENIS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "M3321",
+            "libelle": "DAM/CIS SAINT PIERRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M3322",
+            "libelle": "DAM/CIS SAINT ANDRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M3323",
+            "libelle": "DAM/CIS SAINT PAUL",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "M3400",
+            "libelle": "PREVENTION SAINT DENIS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M3500",
+            "libelle": "RPS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "M3600",
+            "libelle": "EVOLUTION DES PRATIQUES DES PS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "N0000",
+            "libelle": "DIRECTION RETRAITE ET ACTION SOCIALE",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "N0001",
+            "libelle": "SECRETARIAT DE DIRECTION RETRAITE ET AS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "N0002",
+            "libelle": "PROJETS RETRAITE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "N0100",
+            "libelle": "METIERS RETRAITE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "N0110",
+            "libelle": "EXPERTISE RET. ET AGENCE NORD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0111",
+            "libelle": "AGENCE RET. NORD RG ET TI",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "N0112",
+            "libelle": "CELLULE EXPERTISE RETRAITE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "N0120",
+            "libelle": "AGENCE RETRAITE SUD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0121",
+            "libelle": "AGENCE RETRAITE ETANG SALE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "N0122",
+            "libelle": "AGENCE RETRAITE ST PIERRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "N0130",
+            "libelle": "AGENCE RETRAITE OUEST",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0140",
+            "libelle": "AGENCE RETRAITE EST",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0150",
+            "libelle": "RETRAITE AGRICOLE INVALIDITE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0151",
+            "libelle": "RETRAITE AGRICOLE ST PIERRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "N0200",
+            "libelle": "ACTION SANITAIRE ET SOCIALE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "N0300",
+            "libelle": "SERVICE SOCIAL",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "N0310",
+            "libelle": "SERVICE SOCIAL NORD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0320",
+            "libelle": "SERVICE SOCIAL SUD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0330",
+            "libelle": "SERVICE SOCIAL OUEST",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0340",
+            "libelle": "SERVICE SOCIAL EST",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0400",
+            "libelle": "CARRIERES ET DECLARATIONS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "N0410",
+            "libelle": "IDENTIFICATION ET DECLARATIONS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0420",
+            "libelle": "CARRIERES RG ET TI",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "N0500",
+            "libelle": "SUPPORT METIERS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "S0000",
+            "libelle": "DIRECTION DU CABINET",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "S0001",
+            "libelle": "RECLAMATION SATISFACTION",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "S0002",
+            "libelle": "ETUDES JURIDIQUES CABINET",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "S0003",
+            "libelle": "RELATIONS PUBLIQUES",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "S0004",
+            "libelle": "INNOVATION ET TRANSFORMATION",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "S0005",
+            "libelle": "BUDGET ET ANALYSE DE LA PERFORMANCE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "S0100",
+            "libelle": "POLES COMMUNICATION ET PROJETS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "S0110",
+            "libelle": "POLE COMMUNICATION",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "S0120",
+            "libelle": "POLE PROJETS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "S0121",
+            "libelle": "POLE PROJETS SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "S0200",
+            "libelle": "DIALOGUE DE GESTION",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "S0210",
+            "libelle": "BUDG. SUIVI. ANALYSE DE LA PERFORMANCE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "S0300",
+            "libelle": "ACCOMPAGNEMENT AU PILOTAGE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "S0400",
+            "libelle": "POLE PARTENARIATS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "S0410",
+            "libelle": "PART.VIEILLISSEMENT ACTIF INGENIERIE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "S0420",
+            "libelle": "LUTTE CONTRE NON RECOURS ACC. AUX DROITS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "S0500",
+            "libelle": "OBSERVATOIRE ECO SOCIAL ET DES FRAGILITES",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "S0510",
+            "libelle": "SYST.D INFORMATION ET BASE DE DONNEES",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "S0520",
+            "libelle": "ETUDES ET VALORISATIONS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "S0600",
+            "libelle": "SECRETARIAT DE DIRECTION CABINET",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "S0610",
+            "libelle": "SECRETARIAT DIRECTION",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "S0620",
+            "libelle": "RELATION CA",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "T0000",
+            "libelle": "DIRECTION SUPPORTS",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "T0200",
+            "libelle": "DIR DES SYST INFORMATION ET DEMATERAILISATION",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "T0201",
+            "libelle": "SECRETARIAT DSID",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0210",
+            "libelle": "CLIENTELE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "T0211",
+            "libelle": "POSTE DE TRAVAIL ST DENIS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0212",
+            "libelle": "POSTE DE TRAVAIL ST PIERRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0213",
+            "libelle": "EDITIQUE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0220",
+            "libelle": "INFRASTRUCTURE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "T0240",
+            "libelle": "TRANSVERSES",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "T0241",
+            "libelle": "TRANSVERSES SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0250",
+            "libelle": "GFE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "T0251",
+            "libelle": "TRAITEMENT DOCUMENTAIRE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0252",
+            "libelle": "GESTION DES DONNEES 1",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0253",
+            "libelle": "GESTION DES DONNEES 1 SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0254",
+            "libelle": "GESTION DES DONNEES 1 EST",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0255",
+            "libelle": "GESTION DES DONNEES 2",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0260",
+            "libelle": "SECUR IT",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "T0261",
+            "libelle": "ADMINISTRATION FONCTIONNELLE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "T0262",
+            "libelle": "ADMINISTRATION FONCTIONNELLE SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0000",
+            "libelle": "DIRECTION RELATIONS CLIENTS",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "U0001",
+            "libelle": "SECRETARIAT DIR RELATIONS CLIENTS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0002",
+            "libelle": "MEDIATION",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0003",
+            "libelle": "CONTACT TRACING SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0004",
+            "libelle": "CONTACT TRACING NORD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0100",
+            "libelle": "ACCUEIL PHYSIQUE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "U0110",
+            "libelle": "ACCUEIL PHYSIQUE NORD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "U0120",
+            "libelle": "ACCUEIL PHYSIQUE SUD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "U0130",
+            "libelle": "ACCUEIL PHYSIQUE OUEST",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "U0140",
+            "libelle": "ACCUEIL PHYSIQUE EST",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "U0200",
+            "libelle": "QUALITE PROMO.DES OFFRES DE SERVICES",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "U0210",
+            "libelle": "PROMOTION OFFRES DE SERVICES",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "U0211",
+            "libelle": "APPUI PROMOTION SERVICES",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0212",
+            "libelle": "CHARGES DE PROJET",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0213",
+            "libelle": "COSI",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0214",
+            "libelle": "ECOUTE CLIENT",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0215",
+            "libelle": "LOGISTIQUE ET PROMOTION",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0216",
+            "libelle": "CHARGE DE PROJET SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0220",
+            "libelle": "COORDINATION QUALITE FO",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "U0300",
+            "libelle": "PLATE FORME DE SERVICE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "U0310",
+            "libelle": "PFS SANTE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "U0311",
+            "libelle": "TELECONSEILLERS MALADIE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0312",
+            "libelle": "LUP",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0320",
+            "libelle": "PFS COTISATIONS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "U0321",
+            "libelle": "PFS RETRAITE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0340",
+            "libelle": "PFS PS ET MAS",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "U0341",
+            "libelle": "PFS PS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "U0342",
+            "libelle": "MAS",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0000",
+            "libelle": "DIRECTION RECOUVREMENT ET AFF JURIDIQUES",
+            "Niveau": "Direction",
+            "Description": ""
+          },
+          {
+            "code": "W0001",
+            "libelle": "SECRETARIAT DIR RECOUVREMENT DAJ",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0200",
+            "libelle": "RAF",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "W0210",
+            "libelle": "RAF TI RG ERAF",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W0230",
+            "libelle": "AC PL-PAM",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W0300",
+            "libelle": "GESTION DES COMPTES COTISANTS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "W0330",
+            "libelle": "GDC RG SERVICE GDA",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W0331",
+            "libelle": "GDA",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0332",
+            "libelle": "RG EGM",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0335",
+            "libelle": "RG EGM SECT 1",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0336",
+            "libelle": "RG EGM SECT 2",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0350",
+            "libelle": "RECOUVREMENT AGRICOLE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W0352",
+            "libelle": "COTISATIONS AGRICOLES NORD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0353",
+            "libelle": "COTISATIONS AGRICOLES SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0354",
+            "libelle": "RAF AGRICOLE",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0400",
+            "libelle": "APPUI AU PILOTAGE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "W0410",
+            "libelle": "ENQUETEURS NORD",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W0411",
+            "libelle": "ENQUETEURS SUD",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W0412",
+            "libelle": "STATISTIQUES",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W1000",
+            "libelle": "DIRECTION DES AFFAIRES JURIDIQUES",
+            "Niveau": "Sous-Direction",
+            "Description": ""
+          },
+          {
+            "code": "W1002",
+            "libelle": "GESTION DES CREANCES",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W1003",
+            "libelle": "EJR",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "W1100",
+            "libelle": "POLE EXPERTISE JURIDIQUE",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "W1110",
+            "libelle": "GESTION CONTENTIEUX",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W1130",
+            "libelle": "ETUDES JURIDIQUES",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W1200",
+            "libelle": "CONTROLE EMPLOYEUR LCTI",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "W1210",
+            "libelle": "INSPECTEURS CCA",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W1220",
+            "libelle": "CONTROLEURS CPAP",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W1230",
+            "libelle": "INSPECTEURS LCTI",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W1240",
+            "libelle": "ASSISTANTS CONTROLE",
+            "Niveau": "Service",
+            "Description": ""
+          },
+          {
+            "code": "W1300",
+            "libelle": "RECOURS CONTRE TIERS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "W1400",
+            "libelle": "POLE EXP JURIDIQUE CTX PRESTATIONS",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "W1500",
+            "libelle": "POLE EXP JURIDIQUE CTX RECOUVREMENT",
+            "Niveau": "Département",
+            "Description": ""
+          },
+          {
+            "code": "Z9998",
+            "libelle": "Cellule contacts COVID19",
+            "Niveau": "Pôle",
+            "Description": ""
+          },
+          {
+            "code": "Z9999",
+            "libelle": "Depart",
+            "Niveau": "Pôle",
+            "Description": "Tous les départs d'agent (retraite, rupture conventionnelle...)"
+          }
+        ]
+      }
+    ]
+  }

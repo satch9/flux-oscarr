@@ -1,1 +1,720 @@
-
+{
+    "RCI229720240908": [
+      {
+        "numAgent": 5061,
+        "agent": "ODON EMMANUELLE (5061)",
+        "entite": "GDB NORD ",
+        "dateSynchronisation": "2024-09-04",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODEREMUNERATION",
+            "avant": "10004S ",
+            "apres": "10005B "
+          }
+        ]
+      }
+    ],
+    "RCI229720240907": [
+      {
+        "numAgent": 6527,
+        "agent": "ANDOCHE ELIANE (6527)",
+        "entite": "SERVICE SOCIAL NORD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0310 ",
+            "apres": "N1110 "
+          }
+        ]
+      },
+      {
+        "numAgent": 2510,
+        "agent": "BESSE FABIENNE (2510)",
+        "entite": "UNITE GESTION NON CONFORMES ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 3474,
+        "agent": "BOULEVARD MARIE GERALDINE (3474)",
+        "entite": "ACTION SANITAIRE ET SOCIALE ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 3545,
+        "agent": "BOUYER MARIE GERALDINE (3545)",
+        "entite": "SERVICE SOCIAL OUEST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0330 ",
+            "apres": "N1130 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6439,
+        "agent": "BUDEL ANAELLE (6439)",
+        "entite": "SERVICE SOCIAL EST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0340 ",
+            "apres": "N1140 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6279,
+        "agent": "CANTINA MARIE ANGELIQUE (6279)",
+        "entite": "SERVICE SOCIAL ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0300 ",
+            "apres": "N1100 "
+          }
+        ]
+      },
+      {
+        "numAgent": 3472,
+        "agent": "CARLIER DAVID (3472)",
+        "entite": "ACTION SANITAIRE ET SOCIALE ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6343,
+        "agent": "CAVANE MARIE-CECILIA (6343)",
+        "entite": "Depart ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5355,
+        "agent": "CESAR MARIE PERRINE (5355)",
+        "entite": "SERVICE SOCIAL NORD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0310 ",
+            "apres": "N1110 "
+          }
+        ]
+      },
+      {
+        "numAgent": 1731,
+        "agent": "CHAN TAVE BRIGITTE (1731)",
+        "entite": "SERVICE SOCIAL EST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0340 ",
+            "apres": "N1140 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5320,
+        "agent": "CHEVREUIL ANGELIQUE (5320)",
+        "entite": "SERVICE SOCIAL EST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0340 ",
+            "apres": "N1140 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5789,
+        "agent": "CLAIN EMILIE ISABELLE (5789)",
+        "entite": "SERVICE SOCIAL EST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0340 ",
+            "apres": "N1140 "
+          }
+        ]
+      },
+      {
+        "numAgent": 2829,
+        "agent": "COURTOIS MIMOSE (2829)",
+        "entite": "SERVICE SOCIAL SUD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0320 ",
+            "apres": "N1120 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6051,
+        "agent": "DAMOUR GWENDOLINE (6051)",
+        "entite": "SERVICE SOCIAL NORD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0330 ",
+            "apres": "N1130 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5638,
+        "agent": "DIJOUX STEPHANIE (5638)",
+        "entite": "ACTION SANITAIRE ET SOCIALE ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 3271,
+        "agent": "FOLIO FREDERIQUE LAUR (3271)",
+        "entite": "SERVICE SOCIAL SUD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0320 ",
+            "apres": "N1120 "
+          }
+        ]
+      },
+      {
+        "numAgent": 3857,
+        "agent": "GRONDIN HUBERT VICTOR (3857)",
+        "entite": "SERVICE SOCIAL SUD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0320 ",
+            "apres": "N1120 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5916,
+        "agent": "HANSROD SHAHER BANOU (5916)",
+        "entite": "ACTION SANITAIRE ET SOCIALE ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6526,
+        "agent": "HOAREAU MARIE CAMILLE (6526)",
+        "entite": "SERVICE SOCIAL SUD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0320 ",
+            "apres": "N1120 "
+          }
+        ]
+      },
+      {
+        "numAgent": 3309,
+        "agent": "HOAREAU MICKAELLE (3309)",
+        "entite": "ACTION SANITAIRE ET SOCIALE ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5284,
+        "agent": "ISSOP AAMINAH (5284)",
+        "entite": "SERVICE SOCIAL NORD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0310 ",
+            "apres": "N1110 "
+          }
+        ]
+      },
+      {
+        "numAgent": 1859,
+        "agent": "LEBON NADEGE (1859)",
+        "entite": "SERVICE SOCIAL NORD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0310 ",
+            "apres": "N1110 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6511,
+        "agent": "LEONARD JEAN-MAXIME JACQUES (6511)",
+        "entite": "DIRECTION RETRAITE ET ACTION SOCIALE ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0000 ",
+            "apres": "N1000 "
+          }
+        ]
+      },
+      {
+        "numAgent": 3299,
+        "agent": "LO-THONG FABIOLA (3299)",
+        "entite": "SERVICE SOCIAL OUEST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0330 ",
+            "apres": "N1130 "
+          }
+        ]
+      },
+      {
+        "numAgent": 1783,
+        "agent": "LOLJEET POURENKOUMAHL (1783)",
+        "entite": "ACTION SANITAIRE ET ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 4634,
+        "agent": "MAILLOT EMILIE (4634)",
+        "entite": "SERVICE SOCIAL SUD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0320 ",
+            "apres": "N1120 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5672,
+        "agent": "MOUTOU PRISCILLA MICHELE (5672)",
+        "entite": "SERVICE SOCIAL ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0300 ",
+            "apres": "N1100 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5408,
+        "agent": "PALAMA MARIE CHRISTINE (5408)",
+        "entite": "SERVICE SOCIAL EST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0340 ",
+            "apres": "N1140 "
+          }
+        ]
+      },
+      {
+        "numAgent": 4449,
+        "agent": "PAUS VERONIQUE (4449)",
+        "entite": "SERVICE SOCIAL NORD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0310 ",
+            "apres": "N1110 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5976,
+        "agent": "PAYET SABRINA (5976)",
+        "entite": "SERVICE SOCIAL SUD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0320 ",
+            "apres": "N1120 "
+          }
+        ]
+      },
+      {
+        "numAgent": 1782,
+        "agent": "PEROUMAL ELLAMA MARIE VIRGINIE (1782)",
+        "entite": "ACTION SANITAIRE ET SOCIALE ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6507,
+        "agent": "ROBERT JULIE (6507)",
+        "entite": "ACTION SANITAIRE ET SOCIALE ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5587,
+        "agent": "ROBIERE AURELIE MARIE (5587)",
+        "entite": "SERVICE SOCIAL SUD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0320 ",
+            "apres": "N1120 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6297,
+        "agent": "ROUX DELPHINE (6297)",
+        "entite": "SERVICE SOCIAL OUEST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0300 ",
+            "apres": "N1100 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6375,
+        "agent": "SOUPRAYENMESTRY CHINDAMANI (6375)",
+        "entite": "SERVICE SOCIAL NORD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0310 ",
+            "apres": "N1110 "
+          }
+        ]
+      },
+      {
+        "numAgent": 3049,
+        "agent": "TARBY CLAUDETTE (3049)",
+        "entite": "SERVICE SOCIAL SUD ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0320 ",
+            "apres": "N1120 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5087,
+        "agent": "THEMYR MELISSA ESTELLE (5087)",
+        "entite": "ACTION SANITAIRE ET SOCIALE ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0200 ",
+            "apres": "N1200 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5277,
+        "agent": "VAHOIE FLORALDINE (5277)",
+        "entite": "SERVICE SOCIAL OUEST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0330 ",
+            "apres": "N1130 "
+          }
+        ]
+      },
+      {
+        "numAgent": 5058,
+        "agent": "VIRAMOUTOU COUTAYE MARIE GRUNAELLE (5058)",
+        "entite": "SERVICE SOCIAL EST ",
+        "dateSynchronisation": "2024-09-03",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0340 ",
+            "apres": "N1140 "
+          }
+        ]
+      }
+    ],
+    "RCI229720240906": [
+      {
+        "numAgent": 6416,
+        "agent": "BRUNO LYDIA CHRISTELLE (6416)",
+        "entite": "Depart ",
+        "dateSynchronisation": "2024-09-02",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "DATEDEPART",
+            "avant": "11/06/2024 ",
+            "apres": "null "
+          }
+        ]
+      },
+      {
+        "numAgent": 6395,
+        "agent": "FANNIO ELENA MARIE LUCILLE (6395)",
+        "entite": "PFS COTISATIONS ",
+        "dateSynchronisation": "2024-09-02",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "PRENOM",
+            "avant": "ELENA ",
+            "apres": "ELENA MARIE LUCILLE "
+          },
+          {
+            "action": "M",
+            "modification": "DATEDEPART",
+            "avant": "18/08/2023 ",
+            "apres": "null "
+          }
+        ]
+      },
+      {
+        "numAgent": 6538,
+        "agent": "KOWALCZYK MAUDE (6538)",
+        "entite": "Département relations sociales et supports juridiques RH ",
+        "dateSynchronisation": "2024-09-02",
+        "lignes": [
+          {
+            "action": "C",
+            "modification": "",
+            "avant": "",
+            "apres": ""
+          }
+        ]
+      },
+      {
+        "numAgent": 6537,
+        "agent": "NARSAMA DAVID JEAN JOCELYN (6537)",
+        "entite": "INFRASTRUCTURE ",
+        "dateSynchronisation": "2024-09-02",
+        "lignes": [
+          {
+            "action": "C",
+            "modification": "",
+            "avant": "",
+            "apres": ""
+          }
+        ]
+      },
+      {
+        "numAgent": 3636,
+        "agent": "PAYET MARIE JOELLE (3636)",
+        "entite": "COTISATIONS AGRICOLES SUD ",
+        "dateSynchronisation": "2024-09-02",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "HORAIREHEBDOMADAIRE",
+            "avant": "36.0 ",
+            "apres": "32.0 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6297,
+        "agent": "ROUX DELPHINE (6297)",
+        "entite": "SERVICE SOCIAL OUEST ",
+        "dateSynchronisation": "2024-09-02",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "CODESERVICE",
+            "avant": "N0310 ",
+            "apres": "N0300 "
+          }
+        ]
+      },
+      {
+        "numAgent": 6518,
+        "agent": "SOUMARIA-POULIA DAVY (6518)",
+        "entite": "ACCUEIL PHYSIQUE NORD ",
+        "dateSynchronisation": "2024-09-02",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "DATEDEPART",
+            "avant": "null ",
+            "apres": "31/08/2024 "
+          }
+        ]
+      }
+    ],
+    "RCI229720240905": [
+      {
+        "numAgent": 6502,
+        "agent": "ANDY CYNTHIA (6502)",
+        "entite": "GDA ",
+        "dateSynchronisation": "2024-08-30",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "DATEDEPART",
+            "avant": "null ",
+            "apres": "30/08/2024 "
+          }
+        ]
+      }
+    ],
+    "RCI229720240903": [
+      {
+        "numAgent": 6455,
+        "agent": "PAYET ANNAELLE MARIE SOPHIE (6455)",
+        "entite": "COTISATIONS AGRICOLES NORD ",
+        "dateSynchronisation": "2024-08-28",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "DATEDEPART",
+            "avant": "27/08/2024 ",
+            "apres": "null "
+          }
+        ]
+      }
+    ],
+    "RCI229720240902": [
+      {
+        "numAgent": 6455,
+        "agent": "PAYET ANNAELLE MARIE SOPHIE (6455)",
+        "entite": "COTISATIONS AGRICOLES NORD ",
+        "dateSynchronisation": "2024-08-27",
+        "lignes": [
+          {
+            "action": "M",
+            "modification": "DATEDEPART",
+            "avant": "null ",
+            "apres": "27/08/2024 "
+          }
+        ]
+      }
+    ]
+}

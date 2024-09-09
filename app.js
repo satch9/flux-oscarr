@@ -252,7 +252,7 @@ function createLi(data, elementID) {
       if (itemIndex < data.length) {
         const li = document.createElement('li')
         li.className = 'list-group-item'
-        
+
         if (elementID === 'columns-container') {
           li.textContent = `${data[itemIndex].numAgent} - ${
             data[itemIndex].agent.split(' (')[0]
@@ -268,6 +268,46 @@ function createLi(data, elementID) {
     column.appendChild(ol)
     container.appendChild(column)
   }
+}
+
+function createOrgChart(data, parentElement) {
+  const ul = document.createElement('ul')
+  ul.classList.add('list-group')
+
+  data.forEach((item) => {
+    const li = document.createElement('li')
+    li.classList.add('list-group-item')
+    li.textContent = `${item.code} ${item.libelle} (${item.Niveau})`
+
+    // Ajout de classes spécifiques en fonction du niveau
+    switch (item.Niveau) {
+      case 'Direction':
+        li.classList.add('direction')
+        break
+      case 'Sous-Direction':
+        li.classList.add('sous-direction')
+        break
+      case 'Département':
+        li.classList.add('departement')
+        break
+      case 'Service':
+        li.classList.add('service')
+        break
+      case 'Pôle':
+        li.classList.add('pole')
+        break
+    }
+
+    ul.appendChild(li)
+
+    if (item.children) {
+      const childUl = createOrgChart(item.children, ul)
+      li.appendChild(childUl)
+    }
+  })
+
+  parentElement.appendChild(ul)
+  return ul
 }
 
 function loadContent(page, element) {
@@ -290,6 +330,7 @@ function loadContent(page, element) {
       const yearSelect = document.querySelector('#year-select')
       //const timeline = document.getElementById("timeline");
       const sansEntites = document.getElementById('sansEntites')
+      const agentsPartis = document.querySelector('#agentsDeparts')
 
       if (yearSelect) {
         // Set default year to current year
@@ -309,15 +350,27 @@ function loadContent(page, element) {
           }
 
           if (selectAgents) {
-            const agents = getUniqueAgents(dataDB)
+            let agents
+            agentsPartis.addEventListener('click', (e) => {
+              agents = getUniqueAgents(dataDB)
+              console.log('agents avant ', agents)
 
-            agents.sort((a, b) => a.numAgent - b.numAgent)
+              if (e.target.checked) {
+                agents.map((agent) => agent.entite.trim() !== 'Depart')
+                console.log('agents après', agents)
+              } else {
+                agents = getUniqueAgents(dataDB)
+              }
+              agents.sort((a, b) => a.numAgent - b.numAgent)
 
-            agents.forEach((agent) => {
-              const option = document.createElement('option')
-              option.value = agent.numAgent
-              option.text = `${agent.agent.split(' (')[0]} - ${agent.numAgent} `
-              selectAgents.appendChild(option)
+              agents.forEach((agent) => {
+                const option = document.createElement('option')
+                option.value = agent.numAgent
+                option.text = `${agent.agent.split(' (')[0]} - ${
+                  agent.numAgent
+                } `
+                selectAgents.appendChild(option)
+              })
             })
 
             allModifications = dataDB
@@ -354,6 +407,29 @@ function loadContent(page, element) {
             titreNbreAgentsSansEntites.innerHTML = `Nombre d'agents : ${agentsSansEntites.length}`
 
             createLi(agentsSansEntites, 'columns-container')
+          }
+        })
+        .catch((error) => {
+          console.error('Error:', error)
+        })
+
+      const orgChartContainer = document.getElementById('org-chart')
+      const date_validite = document.getElementById('date_validite')
+
+      fetch('./data/entites.json')
+        .then((response) => response.json())
+        .then((dataStructureEntites) => {
+          console.log('dataStructureEntites', dataStructureEntites)
+          for (const key in dataStructureEntites) {
+            console.log('key', key)
+            dataStructureEntites[key].forEach((entite) => {
+              console.log('structure', entite)
+              if (date_validite) {
+                date_validite.innerHTML = `En date du ${entite.date_validite_schema}`
+              }
+
+              createOrgChart(entite.structure, orgChartContainer)
+            })
           }
         })
         .catch((error) => {
